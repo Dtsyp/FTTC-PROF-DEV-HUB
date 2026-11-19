@@ -1,0 +1,64 @@
+name: "Bug Report — ошибка"
+description: "Сообщить об ошибке или регрессии в платформе"
+title: "fix: "
+body:
+  - type: textarea
+    id: description
+    attributes:
+      label: "Описание ошибки"
+      description: "Что сломано и как это влияет на пользователя?"
+    validations:
+      required: true
+  - type: textarea
+    id: steps
+    attributes:
+      label: "Шаги воспроизведения"
+      placeholder: |
+        1. Войти под ролью ...
+        2. Открыть ...
+        3. Выполнить ...
+        4. Увидеть ошибку
+    validations:
+      required: true
+  - type: textarea
+    id: expected
+    attributes:
+      label: "Ожидаемое поведение"
+    validations:
+      required: true
+  - type: textarea
+    id: actual
+    attributes:
+      label: "Фактическое поведение"
+    validations:
+      required: true
+  - type: textarea
+    id: environment
+    attributes:
+      label: "Окружение"
+      description: "Среда, версия, браузер, роль пользователя, если применимо"
+    validations:
+      required: false
+  - type: textarea
+    id: acceptance
+    attributes:
+      label: "Критерии исправления"
+      placeholder: |
+        - [ ] Ошибка больше не воспроизводится
+        - [ ] Связанные сценарии работают корректно
+    validations:
+      required: true
+  - type: textarea
+    id: checks
+    attributes:
+      label: "Необходимые проверки"
+      description: "Регрессионные тесты, роли и сценарии для проверки исправления"
+    validations:
+      required: true
+  - type: textarea
+    id: evidence
+    attributes:
+      label: "Логи, скриншоты и ссылки (без секретов и ПДн)"
+      description: "Опционально: обезличенные логи, изображения и ссылки на PR"
+    validations:
+      required: false
