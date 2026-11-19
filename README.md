@@ -4,6 +4,8 @@
 
 В репозитории сейчас есть проектная документация и правила совместной разработки. Границы MVP, этапы поставки и открытые решения заказчика собраны в [архитектуре и дорожной карте](docs/FTTC_PROF_DEV_HUB_Architecture_and_Roadmap.md).
 
+[Архитектурная приёмка](docs/architecture/acceptance.md) · [Требования ИТМО и расхождения](docs/architecture/requirements-trace.md) · [План команды](docs/architecture/delivery.md) · [Backlog по требованиям](docs/architecture/backlog.md).
+
 ## Как начать работу над задачей
 
 1. Выбери задачу в [GitHub Issues](https://github.com/Dtsyp/FTTC-PROF-DEV-HUB/issues). Порядок работы с задачами, ветками и PR описан в [CONTRIBUTING.md](CONTRIBUTING.md).
