@@ -1,0 +1,44 @@
+name: PR conventions
+
+on:
+  pull_request:
+    branches:
+      - main
+    types:
+      - opened
+      - reopened
+      - synchronize
+      - edited
+      - ready_for_review
+
+permissions:
+  contents: read
+
+jobs:
+  conventions:
+    name: PR conventions
+    runs-on: ubuntu-latest
+    steps:
+      - name: Validate branch name and issue reference
+        shell: bash
+        env:
+          PR_BRANCH: ${{ github.head_ref }}
+          PR_BODY: ${{ github.event.pull_request.body }}
+        run: |
+          set -euo pipefail
+
+          branch_pattern='^(feature|fix|chore|refactor|docs|test|ci)/([1-9][0-9]*)-([a-z0-9]+(-[a-z0-9]+)*)$'
+          if [[ ! "$PR_BRANCH" =~ $branch_pattern ]]; then
+            echo "::error::Branch name must match type/ISSUE-description, e.g. feature/42-teacher-portfolio"
+            exit 1
+          fi
+
+          issue_number="${BASH_REMATCH[2]}"
+          issue_pattern="(^|[[:space:]])(closes|fixes|resolves)[[:space:]]+#${issue_number}([^0-9]|$)"
+
+          if ! grep -Eiq "$issue_pattern" <<< "$PR_BODY"; then
+            echo "::error::PR description must include Closes #${issue_number} (or Fixes/Resolves) matching the branch number"
+            exit 1
+          fi
+
+          echo "Branch name and linked Issue #${issue_number} are consistent."
