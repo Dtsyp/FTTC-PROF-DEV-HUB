@@ -1,0 +1,41 @@
+name: "Technical Task — техническая задача"
+description: "Инфраструктура, CI/CD, рефакторинг, документация и инженерные изменения"
+title: "chore: "
+body:
+  - type: textarea
+    id: problem
+    attributes:
+      label: "Техническая проблема и цель"
+      description: "Что нужно изменить и почему это требуется?"
+    validations:
+      required: true
+  - type: textarea
+    id: scope
+    attributes:
+      label: "Объём работ"
+      description: "Затронутые модули, файлы, окружения и ожидаемые изменения"
+    validations:
+      required: true
+  - type: textarea
+    id: acceptance
+    attributes:
+      label: "Критерии приёмки"
+      placeholder: |
+        - [ ] ...
+        - [ ] ...
+    validations:
+      required: true
+  - type: textarea
+    id: checks
+    attributes:
+      label: "Необходимые проверки"
+      description: "Команды, тесты, проверки совместимости и воспроизводимые результаты"
+    validations:
+      required: true
+  - type: textarea
+    id: risks
+    attributes:
+      label: "Риски, миграции и зависимости"
+      description: "Опционально: обратная совместимость, безопасность, откат, ADR"
+    validations:
+      required: false

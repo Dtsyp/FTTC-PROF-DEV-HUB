@@ -1,0 +1,57 @@
+name: "Feature — новая функциональность"
+description: "Предложить и описать новую функцию FTTC PROF DEV HUB"
+title: "feat: "
+body:
+  - type: dropdown
+    id: module
+    attributes:
+      label: "Функциональный блок"
+      options:
+        - "Портфолио и ИПР"
+        - "Встречи 1-1"
+        - "Внутренние возможности ИТМО"
+        - "Внешние мероприятия"
+        - "Сквозная функциональность"
+    validations:
+      required: true
+  - type: textarea
+    id: problem
+    attributes:
+      label: "Описание и ценность"
+      description: "Какую проблему решает функция и для кого?"
+      placeholder: "Пользовательская потребность, ожидаемый результат и бизнес-контекст"
+    validations:
+      required: true
+  - type: textarea
+    id: scenarios
+    attributes:
+      label: "Пользовательские сценарии"
+      description: "Опиши затронутые роли и ключевые действия"
+      placeholder: "Как преподаватель, я хочу ..., чтобы ..."
+    validations:
+      required: true
+  - type: textarea
+    id: acceptance
+    attributes:
+      label: "Критерии приёмки"
+      description: "Проверяемые условия завершения задачи"
+      placeholder: |
+        - [ ] ...
+        - [ ] ...
+    validations:
+      required: true
+  - type: textarea
+    id: checks
+    attributes:
+      label: "Необходимые проверки"
+      description: "Какие тесты и сценарии должны подтвердить результат?"
+      placeholder: "Unit/integration/E2E, права ролей, ошибки, граничные сценарии, регрессии"
+    validations:
+      required: true
+  - type: textarea
+    id: constraints
+    attributes:
+      label: "Ограничения и зависимости"
+      description: "Опционально: решения заказчика, источники данных, API, документация"
+    validations:
+      required: false
