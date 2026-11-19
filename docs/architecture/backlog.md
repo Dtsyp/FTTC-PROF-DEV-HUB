@@ -8,90 +8,90 @@
 
 | Issue | Проверяемый результат | Эпик | Этап | Приоритет | Предшественники |
 |---|---|---|---|---|---|
-| E-BASE | Единый кабинет, права и основа приложения | Группировка | MVP → последующие поставки | P0 | Нет предметных предшественников |
-| E-CAT | Внутренние возможности и внешние мероприятия | Группировка | MVP → последующие поставки | P0 | Нет предметных предшественников |
-| E-PLAN | Индивидуальные планы, участие, портфолио и сотрудничество | Группировка | MVP → последующие поставки | P0 | Нет предметных предшественников |
-| E-MEET | Встречи 1-1, согласованные рекомендации и следующий ИПР | Группировка | MVP → последующие поставки | P0 | Нет предметных предшественников |
-| E-OPS | Приёмка пилота и эксплуатационная готовность платформы | Группировка | MVP → последующие поставки | P0 | Нет предметных предшественников |
+| [E-BASE · #12](https://github.com/Dtsyp/FTTC-PROF-DEV-HUB/issues/12) | Единый кабинет, права и основа приложения | Группировка | MVP → последующие поставки | P0 | Нет предметных предшественников |
+| [E-CAT · #13](https://github.com/Dtsyp/FTTC-PROF-DEV-HUB/issues/13) | Внутренние возможности и внешние мероприятия | Группировка | MVP → последующие поставки | P0 | Нет предметных предшественников |
+| [E-PLAN · #14](https://github.com/Dtsyp/FTTC-PROF-DEV-HUB/issues/14) | Индивидуальные планы, участие, портфолио и сотрудничество | Группировка | MVP → последующие поставки | P0 | Нет предметных предшественников |
+| [E-MEET · #15](https://github.com/Dtsyp/FTTC-PROF-DEV-HUB/issues/15) | Встречи 1-1, согласованные рекомендации и следующий ИПР | Группировка | MVP → последующие поставки | P0 | Нет предметных предшественников |
+| [E-OPS · #16](https://github.com/Dtsyp/FTTC-PROF-DEV-HUB/issues/16) | Приёмка пилота и эксплуатационная готовность платформы | Группировка | MVP → последующие поставки | P0 | Нет предметных предшественников |
 
 ## Готовые независимо от PR
 
 | Issue | Проверяемый результат | Эпик | Этап | Приоритет | Предшественники |
 |---|---|---|---|---|---|
-| S-QA | Подготовить синтетические профили и набор проверок доступа | E-BASE | Подготовка MVP | P0 | Нет предметных предшественников |
-| S-DATA | Подготовить эталоны полей для внутренней и внешней карточек | E-CAT | Подготовка MVP | P0 | Нет предметных предшественников |
-| S-FLOW | Зафиксировать примеры подтверждения, повторной доставки и отзыва участия | E-PLAN | Подготовка MVP | P0 | Нет предметных предшественников |
+| [S-QA · #17](https://github.com/Dtsyp/FTTC-PROF-DEV-HUB/issues/17) | Подготовить синтетические профили и набор проверок доступа | [E-BASE · #12](https://github.com/Dtsyp/FTTC-PROF-DEV-HUB/issues/12) | Подготовка MVP | P0 | Нет предметных предшественников |
+| [S-DATA · #18](https://github.com/Dtsyp/FTTC-PROF-DEV-HUB/issues/18) | Подготовить эталоны полей для внутренней и внешней карточек | [E-CAT · #13](https://github.com/Dtsyp/FTTC-PROF-DEV-HUB/issues/13) | Подготовка MVP | P0 | Нет предметных предшественников |
+| [S-FLOW · #19](https://github.com/Dtsyp/FTTC-PROF-DEV-HUB/issues/19) | Зафиксировать примеры подтверждения, повторной доставки и отзыва участия | [E-PLAN · #14](https://github.com/Dtsyp/FTTC-PROF-DEV-HUB/issues/14) | Подготовка MVP | P0 | Нет предметных предшественников |
 
 ## Требуют решения
 
 | Issue | Проверяемый результат | Эпик | Этап | Приоритет | Предшественники |
 |---|---|---|---|---|---|
-| D-SCOPE | Согласовать маршруты между четырьмя блоками и протокол приёмки пилота | E-BASE | Решение до зависимых работ | P0 | Нет предметных предшественников |
-| D-RULES | Утвердить справочники, правила подтверждения и расчёт прогресса | E-PLAN | Решение до зависимых работ | P0 | Нет предметных предшественников |
-| D-ACCESS | Утвердить области доступа, сроки данных пилота и допустимые агрегаты | E-BASE | Решение до зависимых работ | P0 | Нет предметных предшественников |
-| D-ENV | Выбрать среду пилота, способ входа и технический стек | E-BASE | Решение до зависимых работ | P0 | Нет предметных предшественников |
-| D-SOURCE | Выбрать два пилотных источника и правила полноты карточек | E-CAT | Решение до зависимых работ | P0 | Нет предметных предшественников |
-| D-MEET | Согласовать видимость сводки, итоги встречи и следующий черновик | E-MEET | Решение до зависимых работ | P0 | Нет предметных предшественников |
+| [D-SCOPE · #20](https://github.com/Dtsyp/FTTC-PROF-DEV-HUB/issues/20) | Согласовать маршруты между четырьмя блоками и протокол приёмки пилота | [E-BASE · #12](https://github.com/Dtsyp/FTTC-PROF-DEV-HUB/issues/12) | Решение до зависимых работ | P0 | Нет предметных предшественников |
+| [D-RULES · #21](https://github.com/Dtsyp/FTTC-PROF-DEV-HUB/issues/21) | Утвердить справочники, правила подтверждения и расчёт прогресса | [E-PLAN · #14](https://github.com/Dtsyp/FTTC-PROF-DEV-HUB/issues/14) | Решение до зависимых работ | P0 | Нет предметных предшественников |
+| [D-ACCESS · #22](https://github.com/Dtsyp/FTTC-PROF-DEV-HUB/issues/22) | Утвердить области доступа, сроки данных пилота и допустимые агрегаты | [E-BASE · #12](https://github.com/Dtsyp/FTTC-PROF-DEV-HUB/issues/12) | Решение до зависимых работ | P0 | Нет предметных предшественников |
+| [D-ENV · #23](https://github.com/Dtsyp/FTTC-PROF-DEV-HUB/issues/23) | Выбрать среду пилота, способ входа и технический стек | [E-BASE · #12](https://github.com/Dtsyp/FTTC-PROF-DEV-HUB/issues/12) | Решение до зависимых работ | P0 | Нет предметных предшественников |
+| [D-SOURCE · #24](https://github.com/Dtsyp/FTTC-PROF-DEV-HUB/issues/24) | Выбрать два пилотных источника и правила полноты карточек | [E-CAT · #13](https://github.com/Dtsyp/FTTC-PROF-DEV-HUB/issues/13) | Решение до зависимых работ | P0 | Нет предметных предшественников |
+| [D-MEET · #25](https://github.com/Dtsyp/FTTC-PROF-DEV-HUB/issues/25) | Согласовать видимость сводки, итоги встречи и следующий черновик | [E-MEET · #15](https://github.com/Dtsyp/FTTC-PROF-DEV-HUB/issues/15) | Решение до зависимых работ | P0 | Нет предметных предшественников |
 
 ## MVP и допуск пилота
 
 | Issue | Проверяемый результат | Эпик | Этап | Приоритет | Предшественники |
 |---|---|---|---|---|---|
-| M01 | Запускать веб-кабинет и проверять первую страницу в CI | E-BASE | MVP | P0 | D-ENV |
-| M02 | Воспроизводимо разворачивать и обновлять схему PostgreSQL | E-BASE | MVP | P0 | M01 |
-| M03 | Сохранять события и безопасно повторять фоновые задания | E-BASE | MVP | P0 | M02, S-FLOW |
-| M04 | Входить в единый кабинет под постоянным профилем | E-BASE | MVP | P0 | M02 |
-| M05 | Ограничить доступ действующими ролями и назначениями руководителя | E-BASE | MVP | P0 | M04, M06, S-QA |
-| M06 | Фиксировать значимые действия и сохранять сведения об отзывах | E-BASE | MVP | P0 | M02, D-ACCESS |
-| M07 | Вести справочники треков, типов достижений и отчётных периодов | E-BASE | MVP | P0 | M05, D-RULES |
-| M08 | Создавать и редактировать ИПР преподавателя на выбранный период | E-PLAN | MVP | P0 | M07 |
-| M09 | Вносить достижение в портфолио через веб-форму | E-PLAN | MVP | P0 | M07 |
-| M10 | Предлагать трек достижения и возможности с объяснением и ручной корректировкой | E-PLAN | MVP | P0 | M09, M12 |
-| M11 | Показывать коллегам только явно опубликованные достижения | E-PLAN | MVP | P1 | M09 |
-| M12 | Вводить раздельные карточки возможностей ИТМО и внешних мероприятий | E-CAT | MVP | P0 | M07, S-DATA |
-| M13 | Проверять полноту карточки, публиковать версию и снимать её с публикации | E-CAT | MVP | P0 | M12, M03, D-SOURCE |
-| M14 | Вести реестр разрешённых источников и управлять расписанием обходов | E-CAT | MVP | P0 | M03, M05, D-SOURCE |
-| M15 | Обрабатывать дубли выпусков и расхождения с ручной правкой | E-CAT | MVP | P0 | M13, M14 |
-| M16 | Подключить один согласованный источник возможностей ИТМО | E-CAT | MVP | P0 | M14, M12 |
-| M17 | Подключить один согласованный источник внешних мероприятий | E-CAT | MVP | P0 | M14, M12 |
-| M18 | Находить опубликованные возможности обоих каталогов в кабинете | E-CAT | MVP | P0 | M13, D-SCOPE |
-| M19 | Планировать участие в возможности и видеть запланированное в ИПР | E-PLAN | MVP | P0 | M08, M18 |
-| M20 | Сохранять избранное и видеть календарь запланированного в кабинете | E-CAT | MVP | P1 | M19 |
-| M21 | Заявлять участие, подтверждать по основанию и отзывать решение | E-PLAN | MVP | P0 | M19 |
-| M22 | Импортировать подтверждённое участие в одно связанное достижение | E-PLAN | MVP | P0 | M09, M21 |
-| M23 | Показывать по треку цели, планы, подтверждённые достижения и заполненность ИПР | E-PLAN | MVP | P0 | M10, M22 |
-| M24 | Подбирать возможности обоих каталогов по целям и объяснять рекомендации | E-CAT | MVP | P0 | M23 |
-| M25 | Открывать встречу 1-1 и фиксировать сводку сотрудника за период | E-MEET | MVP | P0 | M23, D-MEET, D-SCOPE |
-| M26 | Печатать фиксированную HTML-сводку встречи с поддержкой русского и английского | E-MEET | MVP | P1 | M25 |
-| M27 | Фиксировать договорённости, утверждать рекомендации и принимать обратную связь | E-MEET | MVP | P0 | M25 |
-| M28 | Переносить утверждённые рекомендации в один черновик следующего ИПР | E-MEET | MVP | P0 | M27 |
-| M29 | Показывать личные уведомления о решениях, рекомендациях и изменениях карточки | E-OPS | MVP | P0 | M03, M05, D-MEET |
-| M30 | Перепланировать одно встроенное напоминание при изменении срока | E-OPS | MVP | P0 | M20, M29 |
-| M31 | Показывать пилотные счётчики в пределах разрешённой группы | E-PLAN | MVP | P1 | M27 |
-| M32 | Разворачивать приложение, worker и закрытые хранилища в изолированном контуре | E-OPS | MVP | P0 | M03 |
-| M33 | Показывать оператору ошибки API, заданий, обходов, уведомлений и резервирования | E-OPS | Допуск пилота | P0 | M14, M34 |
-| M34 | Восстанавливать резервную копию с актуальными удалениями, отзывами и блокировкой рассылок | E-OPS | Допуск пилота | P0 | M32, M30, M11 |
-| M35 | Пройти сквозной сценарий и повторить проверки доступа через кабинет и API | E-OPS | Допуск пилота | P0 | M15, M16, M17, M24, M28, M31, M34, M38 |
-| M36 | Измерить время ответа кабинета при согласованной нагрузке пилота | E-OPS | Допуск пилота | P0 | M23, M32, M16, M17 |
-| M37 | Провести пользовательскую приёмку и передать пилот в сопровождение | E-OPS | Допуск пилота | P0 | M33, M35, M36, D-SCOPE |
-| M38 | Прекращать выдачу и удалять по сроку сводки и опубликованные итоги встреч | E-MEET | MVP | P0 | D-ACCESS, M26, M27 |
+| [M01 · #26](https://github.com/Dtsyp/FTTC-PROF-DEV-HUB/issues/26) | Запускать веб-кабинет и проверять первую страницу в CI | [E-BASE · #12](https://github.com/Dtsyp/FTTC-PROF-DEV-HUB/issues/12) | MVP | P0 | [D-ENV · #23](https://github.com/Dtsyp/FTTC-PROF-DEV-HUB/issues/23) |
+| [M02 · #27](https://github.com/Dtsyp/FTTC-PROF-DEV-HUB/issues/27) | Воспроизводимо разворачивать и обновлять схему PostgreSQL | [E-BASE · #12](https://github.com/Dtsyp/FTTC-PROF-DEV-HUB/issues/12) | MVP | P0 | [M01 · #26](https://github.com/Dtsyp/FTTC-PROF-DEV-HUB/issues/26) |
+| [M03 · #28](https://github.com/Dtsyp/FTTC-PROF-DEV-HUB/issues/28) | Сохранять события и безопасно повторять фоновые задания | [E-BASE · #12](https://github.com/Dtsyp/FTTC-PROF-DEV-HUB/issues/12) | MVP | P0 | [M02 · #27](https://github.com/Dtsyp/FTTC-PROF-DEV-HUB/issues/27), [S-FLOW · #19](https://github.com/Dtsyp/FTTC-PROF-DEV-HUB/issues/19) |
+| [M04 · #29](https://github.com/Dtsyp/FTTC-PROF-DEV-HUB/issues/29) | Входить в единый кабинет под постоянным профилем | [E-BASE · #12](https://github.com/Dtsyp/FTTC-PROF-DEV-HUB/issues/12) | MVP | P0 | [M02 · #27](https://github.com/Dtsyp/FTTC-PROF-DEV-HUB/issues/27) |
+| [M05 · #31](https://github.com/Dtsyp/FTTC-PROF-DEV-HUB/issues/31) | Ограничить доступ действующими ролями и назначениями руководителя | [E-BASE · #12](https://github.com/Dtsyp/FTTC-PROF-DEV-HUB/issues/12) | MVP | P0 | [M04 · #29](https://github.com/Dtsyp/FTTC-PROF-DEV-HUB/issues/29), [M06 · #30](https://github.com/Dtsyp/FTTC-PROF-DEV-HUB/issues/30), [S-QA · #17](https://github.com/Dtsyp/FTTC-PROF-DEV-HUB/issues/17) |
+| [M06 · #30](https://github.com/Dtsyp/FTTC-PROF-DEV-HUB/issues/30) | Фиксировать значимые действия и сохранять сведения об отзывах | [E-BASE · #12](https://github.com/Dtsyp/FTTC-PROF-DEV-HUB/issues/12) | MVP | P0 | [M02 · #27](https://github.com/Dtsyp/FTTC-PROF-DEV-HUB/issues/27), [D-ACCESS · #22](https://github.com/Dtsyp/FTTC-PROF-DEV-HUB/issues/22) |
+| [M07 · #32](https://github.com/Dtsyp/FTTC-PROF-DEV-HUB/issues/32) | Вести справочники треков, типов достижений и отчётных периодов | [E-BASE · #12](https://github.com/Dtsyp/FTTC-PROF-DEV-HUB/issues/12) | MVP | P0 | [M05 · #31](https://github.com/Dtsyp/FTTC-PROF-DEV-HUB/issues/31), [D-RULES · #21](https://github.com/Dtsyp/FTTC-PROF-DEV-HUB/issues/21) |
+| [M08 · #33](https://github.com/Dtsyp/FTTC-PROF-DEV-HUB/issues/33) | Создавать и редактировать ИПР преподавателя на выбранный период | [E-PLAN · #14](https://github.com/Dtsyp/FTTC-PROF-DEV-HUB/issues/14) | MVP | P0 | [M07 · #32](https://github.com/Dtsyp/FTTC-PROF-DEV-HUB/issues/32) |
+| [M09 · #34](https://github.com/Dtsyp/FTTC-PROF-DEV-HUB/issues/34) | Вносить достижение в портфолио через веб-форму | [E-PLAN · #14](https://github.com/Dtsyp/FTTC-PROF-DEV-HUB/issues/14) | MVP | P0 | [M07 · #32](https://github.com/Dtsyp/FTTC-PROF-DEV-HUB/issues/32) |
+| [M10 · #37](https://github.com/Dtsyp/FTTC-PROF-DEV-HUB/issues/37) | Предлагать трек достижения и возможности с объяснением и ручной корректировкой | [E-PLAN · #14](https://github.com/Dtsyp/FTTC-PROF-DEV-HUB/issues/14) | MVP | P0 | [M09 · #34](https://github.com/Dtsyp/FTTC-PROF-DEV-HUB/issues/34), [M12 · #36](https://github.com/Dtsyp/FTTC-PROF-DEV-HUB/issues/36) |
+| [M11 · #35](https://github.com/Dtsyp/FTTC-PROF-DEV-HUB/issues/35) | Показывать коллегам только явно опубликованные достижения | [E-PLAN · #14](https://github.com/Dtsyp/FTTC-PROF-DEV-HUB/issues/14) | MVP | P1 | [M09 · #34](https://github.com/Dtsyp/FTTC-PROF-DEV-HUB/issues/34) |
+| [M12 · #36](https://github.com/Dtsyp/FTTC-PROF-DEV-HUB/issues/36) | Вводить раздельные карточки возможностей ИТМО и внешних мероприятий | [E-CAT · #13](https://github.com/Dtsyp/FTTC-PROF-DEV-HUB/issues/13) | MVP | P0 | [M07 · #32](https://github.com/Dtsyp/FTTC-PROF-DEV-HUB/issues/32), [S-DATA · #18](https://github.com/Dtsyp/FTTC-PROF-DEV-HUB/issues/18) |
+| [M13 · #38](https://github.com/Dtsyp/FTTC-PROF-DEV-HUB/issues/38) | Проверять полноту карточки, публиковать версию и снимать её с публикации | [E-CAT · #13](https://github.com/Dtsyp/FTTC-PROF-DEV-HUB/issues/13) | MVP | P0 | [M12 · #36](https://github.com/Dtsyp/FTTC-PROF-DEV-HUB/issues/36), [M03 · #28](https://github.com/Dtsyp/FTTC-PROF-DEV-HUB/issues/28), [D-SOURCE · #24](https://github.com/Dtsyp/FTTC-PROF-DEV-HUB/issues/24) |
+| [M14 · #39](https://github.com/Dtsyp/FTTC-PROF-DEV-HUB/issues/39) | Вести реестр разрешённых источников и управлять расписанием обходов | [E-CAT · #13](https://github.com/Dtsyp/FTTC-PROF-DEV-HUB/issues/13) | MVP | P0 | [M03 · #28](https://github.com/Dtsyp/FTTC-PROF-DEV-HUB/issues/28), [M05 · #31](https://github.com/Dtsyp/FTTC-PROF-DEV-HUB/issues/31), [D-SOURCE · #24](https://github.com/Dtsyp/FTTC-PROF-DEV-HUB/issues/24) |
+| [M15 · #40](https://github.com/Dtsyp/FTTC-PROF-DEV-HUB/issues/40) | Обрабатывать дубли выпусков и расхождения с ручной правкой | [E-CAT · #13](https://github.com/Dtsyp/FTTC-PROF-DEV-HUB/issues/13) | MVP | P0 | [M13 · #38](https://github.com/Dtsyp/FTTC-PROF-DEV-HUB/issues/38), [M14 · #39](https://github.com/Dtsyp/FTTC-PROF-DEV-HUB/issues/39) |
+| [M16 · #41](https://github.com/Dtsyp/FTTC-PROF-DEV-HUB/issues/41) | Подключить один согласованный источник возможностей ИТМО | [E-CAT · #13](https://github.com/Dtsyp/FTTC-PROF-DEV-HUB/issues/13) | MVP | P0 | [M14 · #39](https://github.com/Dtsyp/FTTC-PROF-DEV-HUB/issues/39), [M12 · #36](https://github.com/Dtsyp/FTTC-PROF-DEV-HUB/issues/36) |
+| [M17 · #42](https://github.com/Dtsyp/FTTC-PROF-DEV-HUB/issues/42) | Подключить один согласованный источник внешних мероприятий | [E-CAT · #13](https://github.com/Dtsyp/FTTC-PROF-DEV-HUB/issues/13) | MVP | P0 | [M14 · #39](https://github.com/Dtsyp/FTTC-PROF-DEV-HUB/issues/39), [M12 · #36](https://github.com/Dtsyp/FTTC-PROF-DEV-HUB/issues/36) |
+| [M18 · #43](https://github.com/Dtsyp/FTTC-PROF-DEV-HUB/issues/43) | Находить опубликованные возможности обоих каталогов в кабинете | [E-CAT · #13](https://github.com/Dtsyp/FTTC-PROF-DEV-HUB/issues/13) | MVP | P0 | [M13 · #38](https://github.com/Dtsyp/FTTC-PROF-DEV-HUB/issues/38), [D-SCOPE · #20](https://github.com/Dtsyp/FTTC-PROF-DEV-HUB/issues/20) |
+| [M19 · #44](https://github.com/Dtsyp/FTTC-PROF-DEV-HUB/issues/44) | Планировать участие в возможности и видеть запланированное в ИПР | [E-PLAN · #14](https://github.com/Dtsyp/FTTC-PROF-DEV-HUB/issues/14) | MVP | P0 | [M08 · #33](https://github.com/Dtsyp/FTTC-PROF-DEV-HUB/issues/33), [M18 · #43](https://github.com/Dtsyp/FTTC-PROF-DEV-HUB/issues/43) |
+| [M20 · #45](https://github.com/Dtsyp/FTTC-PROF-DEV-HUB/issues/45) | Сохранять избранное и видеть календарь запланированного в кабинете | [E-CAT · #13](https://github.com/Dtsyp/FTTC-PROF-DEV-HUB/issues/13) | MVP | P1 | [M19 · #44](https://github.com/Dtsyp/FTTC-PROF-DEV-HUB/issues/44) |
+| [M21 · #46](https://github.com/Dtsyp/FTTC-PROF-DEV-HUB/issues/46) | Заявлять участие, подтверждать по основанию и отзывать решение | [E-PLAN · #14](https://github.com/Dtsyp/FTTC-PROF-DEV-HUB/issues/14) | MVP | P0 | [M19 · #44](https://github.com/Dtsyp/FTTC-PROF-DEV-HUB/issues/44) |
+| [M22 · #47](https://github.com/Dtsyp/FTTC-PROF-DEV-HUB/issues/47) | Импортировать подтверждённое участие в одно связанное достижение | [E-PLAN · #14](https://github.com/Dtsyp/FTTC-PROF-DEV-HUB/issues/14) | MVP | P0 | [M09 · #34](https://github.com/Dtsyp/FTTC-PROF-DEV-HUB/issues/34), [M21 · #46](https://github.com/Dtsyp/FTTC-PROF-DEV-HUB/issues/46) |
+| [M23 · #48](https://github.com/Dtsyp/FTTC-PROF-DEV-HUB/issues/48) | Показывать по треку цели, планы, подтверждённые достижения и заполненность ИПР | [E-PLAN · #14](https://github.com/Dtsyp/FTTC-PROF-DEV-HUB/issues/14) | MVP | P0 | [M10 · #37](https://github.com/Dtsyp/FTTC-PROF-DEV-HUB/issues/37), [M22 · #47](https://github.com/Dtsyp/FTTC-PROF-DEV-HUB/issues/47) |
+| [M24 · #49](https://github.com/Dtsyp/FTTC-PROF-DEV-HUB/issues/49) | Подбирать возможности обоих каталогов по целям и объяснять рекомендации | [E-CAT · #13](https://github.com/Dtsyp/FTTC-PROF-DEV-HUB/issues/13) | MVP | P0 | [M23 · #48](https://github.com/Dtsyp/FTTC-PROF-DEV-HUB/issues/48) |
+| [M25 · #50](https://github.com/Dtsyp/FTTC-PROF-DEV-HUB/issues/50) | Открывать встречу 1-1 и фиксировать сводку сотрудника за период | [E-MEET · #15](https://github.com/Dtsyp/FTTC-PROF-DEV-HUB/issues/15) | MVP | P0 | [M23 · #48](https://github.com/Dtsyp/FTTC-PROF-DEV-HUB/issues/48), [D-MEET · #25](https://github.com/Dtsyp/FTTC-PROF-DEV-HUB/issues/25), [D-SCOPE · #20](https://github.com/Dtsyp/FTTC-PROF-DEV-HUB/issues/20) |
+| [M26 · #51](https://github.com/Dtsyp/FTTC-PROF-DEV-HUB/issues/51) | Печатать фиксированную HTML-сводку встречи с поддержкой русского и английского | [E-MEET · #15](https://github.com/Dtsyp/FTTC-PROF-DEV-HUB/issues/15) | MVP | P1 | [M25 · #50](https://github.com/Dtsyp/FTTC-PROF-DEV-HUB/issues/50) |
+| [M27 · #52](https://github.com/Dtsyp/FTTC-PROF-DEV-HUB/issues/52) | Фиксировать договорённости, утверждать рекомендации и принимать обратную связь | [E-MEET · #15](https://github.com/Dtsyp/FTTC-PROF-DEV-HUB/issues/15) | MVP | P0 | [M25 · #50](https://github.com/Dtsyp/FTTC-PROF-DEV-HUB/issues/50) |
+| [M28 · #53](https://github.com/Dtsyp/FTTC-PROF-DEV-HUB/issues/53) | Переносить утверждённые рекомендации в один черновик следующего ИПР | [E-MEET · #15](https://github.com/Dtsyp/FTTC-PROF-DEV-HUB/issues/15) | MVP | P0 | [M27 · #52](https://github.com/Dtsyp/FTTC-PROF-DEV-HUB/issues/52) |
+| [M29 · #54](https://github.com/Dtsyp/FTTC-PROF-DEV-HUB/issues/54) | Показывать личные уведомления о решениях, рекомендациях и изменениях карточки | [E-OPS · #16](https://github.com/Dtsyp/FTTC-PROF-DEV-HUB/issues/16) | MVP | P0 | [M03 · #28](https://github.com/Dtsyp/FTTC-PROF-DEV-HUB/issues/28), [M05 · #31](https://github.com/Dtsyp/FTTC-PROF-DEV-HUB/issues/31), [D-MEET · #25](https://github.com/Dtsyp/FTTC-PROF-DEV-HUB/issues/25) |
+| [M30 · #55](https://github.com/Dtsyp/FTTC-PROF-DEV-HUB/issues/55) | Перепланировать одно встроенное напоминание при изменении срока | [E-OPS · #16](https://github.com/Dtsyp/FTTC-PROF-DEV-HUB/issues/16) | MVP | P0 | [M20 · #45](https://github.com/Dtsyp/FTTC-PROF-DEV-HUB/issues/45), [M29 · #54](https://github.com/Dtsyp/FTTC-PROF-DEV-HUB/issues/54) |
+| [M31 · #56](https://github.com/Dtsyp/FTTC-PROF-DEV-HUB/issues/56) | Показывать пилотные счётчики в пределах разрешённой группы | [E-PLAN · #14](https://github.com/Dtsyp/FTTC-PROF-DEV-HUB/issues/14) | MVP | P1 | [M27 · #52](https://github.com/Dtsyp/FTTC-PROF-DEV-HUB/issues/52) |
+| [M32 · #57](https://github.com/Dtsyp/FTTC-PROF-DEV-HUB/issues/57) | Разворачивать приложение, worker и закрытые хранилища в изолированном контуре | [E-OPS · #16](https://github.com/Dtsyp/FTTC-PROF-DEV-HUB/issues/16) | MVP | P0 | [M03 · #28](https://github.com/Dtsyp/FTTC-PROF-DEV-HUB/issues/28) |
+| [M33 · #59](https://github.com/Dtsyp/FTTC-PROF-DEV-HUB/issues/59) | Показывать оператору ошибки API, заданий, обходов, уведомлений и резервирования | [E-OPS · #16](https://github.com/Dtsyp/FTTC-PROF-DEV-HUB/issues/16) | Допуск пилота | P0 | [M14 · #39](https://github.com/Dtsyp/FTTC-PROF-DEV-HUB/issues/39), [M34 · #58](https://github.com/Dtsyp/FTTC-PROF-DEV-HUB/issues/58) |
+| [M34 · #58](https://github.com/Dtsyp/FTTC-PROF-DEV-HUB/issues/58) | Восстанавливать резервную копию с актуальными удалениями, отзывами и блокировкой рассылок | [E-OPS · #16](https://github.com/Dtsyp/FTTC-PROF-DEV-HUB/issues/16) | Допуск пилота | P0 | [M32 · #57](https://github.com/Dtsyp/FTTC-PROF-DEV-HUB/issues/57), [M30 · #55](https://github.com/Dtsyp/FTTC-PROF-DEV-HUB/issues/55), [M11 · #35](https://github.com/Dtsyp/FTTC-PROF-DEV-HUB/issues/35) |
+| [M35 · #62](https://github.com/Dtsyp/FTTC-PROF-DEV-HUB/issues/62) | Пройти сквозной сценарий и повторить проверки доступа через кабинет и API | [E-OPS · #16](https://github.com/Dtsyp/FTTC-PROF-DEV-HUB/issues/16) | Допуск пилота | P0 | [M15 · #40](https://github.com/Dtsyp/FTTC-PROF-DEV-HUB/issues/40), [M16 · #41](https://github.com/Dtsyp/FTTC-PROF-DEV-HUB/issues/41), [M17 · #42](https://github.com/Dtsyp/FTTC-PROF-DEV-HUB/issues/42), [M24 · #49](https://github.com/Dtsyp/FTTC-PROF-DEV-HUB/issues/49), [M28 · #53](https://github.com/Dtsyp/FTTC-PROF-DEV-HUB/issues/53), [M31 · #56](https://github.com/Dtsyp/FTTC-PROF-DEV-HUB/issues/56), [M34 · #58](https://github.com/Dtsyp/FTTC-PROF-DEV-HUB/issues/58), [M38 · #61](https://github.com/Dtsyp/FTTC-PROF-DEV-HUB/issues/61) |
+| [M36 · #60](https://github.com/Dtsyp/FTTC-PROF-DEV-HUB/issues/60) | Измерить время ответа кабинета при согласованной нагрузке пилота | [E-OPS · #16](https://github.com/Dtsyp/FTTC-PROF-DEV-HUB/issues/16) | Допуск пилота | P0 | [M23 · #48](https://github.com/Dtsyp/FTTC-PROF-DEV-HUB/issues/48), [M32 · #57](https://github.com/Dtsyp/FTTC-PROF-DEV-HUB/issues/57), [M16 · #41](https://github.com/Dtsyp/FTTC-PROF-DEV-HUB/issues/41), [M17 · #42](https://github.com/Dtsyp/FTTC-PROF-DEV-HUB/issues/42) |
+| [M37 · #63](https://github.com/Dtsyp/FTTC-PROF-DEV-HUB/issues/63) | Провести пользовательскую приёмку и передать пилот в сопровождение | [E-OPS · #16](https://github.com/Dtsyp/FTTC-PROF-DEV-HUB/issues/16) | Допуск пилота | P0 | [M33 · #59](https://github.com/Dtsyp/FTTC-PROF-DEV-HUB/issues/59), [M35 · #62](https://github.com/Dtsyp/FTTC-PROF-DEV-HUB/issues/62), [M36 · #60](https://github.com/Dtsyp/FTTC-PROF-DEV-HUB/issues/60), [D-SCOPE · #20](https://github.com/Dtsyp/FTTC-PROF-DEV-HUB/issues/20) |
+| [M38 · #61](https://github.com/Dtsyp/FTTC-PROF-DEV-HUB/issues/61) | Прекращать выдачу и удалять по сроку сводки и опубликованные итоги встреч | [E-MEET · #15](https://github.com/Dtsyp/FTTC-PROF-DEV-HUB/issues/15) | MVP | P0 | [D-ACCESS · #22](https://github.com/Dtsyp/FTTC-PROF-DEV-HUB/issues/22), [M26 · #51](https://github.com/Dtsyp/FTTC-PROF-DEV-HUB/issues/51), [M27 · #52](https://github.com/Dtsyp/FTTC-PROF-DEV-HUB/issues/52) |
 
 ## Последующие поставки и исследования
 
 | Issue | Проверяемый результат | Эпик | Этап | Приоритет | Предшественники |
 |---|---|---|---|---|---|
-| F-SRC | Обследовать остальные источники ИТМО и внешних событий | E-CAT | P1 · исследование | P2 | D-SOURCE |
-| F-15 | Довести автосбор до пяти внутренних и десяти внешних источников | E-CAT | P1 | P2 | F-SRC, M15, M16, M17 |
-| F-COL | Открыть совместные проекты, приглашения, заявки и поиск коллег | E-PLAN | P1 | P2 | D-ACCESS, M11, M29 |
-| F-DISC | Согласовать и реализовать перекрёстный подбор и дополнение ленты ИПР | E-CAT | P1–P2 | P2 | D-SCOPE, M24 |
-| F-CAL | Принять и подключить полный календарь и внешние каналы уведомлений | E-CAT | P1–P2 | P2 | M30, D-MEET |
-| F-MET | Проверить определения показателей и приемлемость рекомендаций с методистом | E-MEET | P1 · исследование | P2 | D-RULES, D-ACCESS |
-| F-DOC | Расширить записку встречи, шаблоны и экспорт PDF/DOCX | E-MEET | P2 | P2 | M26, D-MEET |
-| F-AN | Добавить историю периодов, договорённостей и согласованную аналитику | E-MEET | P2 | P2 | F-MET, M28, M31, F-COL |
-| F-AI | Проверить качество и допустимый контур OCR/STT для русского и английского | E-MEET | P1 · исследование | P2 | D-ACCESS |
-| F-MEDIA | Реализовать защищённую обработку материалов 1-1 и проверку результатов человеком | E-MEET | P3 | P2 | F-AI, M34, D-MEET |
-| F-EMO | Получить отдельное решение об опциональном анализе эмоционального тона | E-MEET | После P2 · опция | P2 | F-AI |
-| F-OPS | Принять эксплуатацию полной платформы и передать сопровождению | E-OPS | P4 | P2 | F-15, F-COL, F-DISC, F-CAL, F-DOC, F-AN, F-MEDIA, M37 |
+| [F-SRC · #64](https://github.com/Dtsyp/FTTC-PROF-DEV-HUB/issues/64) | Обследовать остальные источники ИТМО и внешних событий | [E-CAT · #13](https://github.com/Dtsyp/FTTC-PROF-DEV-HUB/issues/13) | P1 · исследование | P2 | [D-SOURCE · #24](https://github.com/Dtsyp/FTTC-PROF-DEV-HUB/issues/24) |
+| [F-15 · #65](https://github.com/Dtsyp/FTTC-PROF-DEV-HUB/issues/65) | Довести автосбор до пяти внутренних и десяти внешних источников | [E-CAT · #13](https://github.com/Dtsyp/FTTC-PROF-DEV-HUB/issues/13) | P1 | P2 | [F-SRC · #64](https://github.com/Dtsyp/FTTC-PROF-DEV-HUB/issues/64), [M15 · #40](https://github.com/Dtsyp/FTTC-PROF-DEV-HUB/issues/40), [M16 · #41](https://github.com/Dtsyp/FTTC-PROF-DEV-HUB/issues/41), [M17 · #42](https://github.com/Dtsyp/FTTC-PROF-DEV-HUB/issues/42) |
+| [F-COL · #66](https://github.com/Dtsyp/FTTC-PROF-DEV-HUB/issues/66) | Открыть совместные проекты, приглашения, заявки и поиск коллег | [E-PLAN · #14](https://github.com/Dtsyp/FTTC-PROF-DEV-HUB/issues/14) | P1 | P2 | [D-ACCESS · #22](https://github.com/Dtsyp/FTTC-PROF-DEV-HUB/issues/22), [M11 · #35](https://github.com/Dtsyp/FTTC-PROF-DEV-HUB/issues/35), [M29 · #54](https://github.com/Dtsyp/FTTC-PROF-DEV-HUB/issues/54) |
+| [F-DISC · #67](https://github.com/Dtsyp/FTTC-PROF-DEV-HUB/issues/67) | Согласовать и реализовать перекрёстный подбор и дополнение ленты ИПР | [E-CAT · #13](https://github.com/Dtsyp/FTTC-PROF-DEV-HUB/issues/13) | P1–P2 | P2 | [D-SCOPE · #20](https://github.com/Dtsyp/FTTC-PROF-DEV-HUB/issues/20), [M24 · #49](https://github.com/Dtsyp/FTTC-PROF-DEV-HUB/issues/49) |
+| [F-CAL · #68](https://github.com/Dtsyp/FTTC-PROF-DEV-HUB/issues/68) | Принять и подключить полный календарь и внешние каналы уведомлений | [E-CAT · #13](https://github.com/Dtsyp/FTTC-PROF-DEV-HUB/issues/13) | P1–P2 | P2 | [M30 · #55](https://github.com/Dtsyp/FTTC-PROF-DEV-HUB/issues/55), [D-MEET · #25](https://github.com/Dtsyp/FTTC-PROF-DEV-HUB/issues/25) |
+| [F-MET · #69](https://github.com/Dtsyp/FTTC-PROF-DEV-HUB/issues/69) | Проверить определения показателей и приемлемость рекомендаций с методистом | [E-MEET · #15](https://github.com/Dtsyp/FTTC-PROF-DEV-HUB/issues/15) | P1 · исследование | P2 | [D-RULES · #21](https://github.com/Dtsyp/FTTC-PROF-DEV-HUB/issues/21), [D-ACCESS · #22](https://github.com/Dtsyp/FTTC-PROF-DEV-HUB/issues/22) |
+| [F-DOC · #70](https://github.com/Dtsyp/FTTC-PROF-DEV-HUB/issues/70) | Расширить записку встречи, шаблоны и экспорт PDF/DOCX | [E-MEET · #15](https://github.com/Dtsyp/FTTC-PROF-DEV-HUB/issues/15) | P2 | P2 | [M26 · #51](https://github.com/Dtsyp/FTTC-PROF-DEV-HUB/issues/51), [D-MEET · #25](https://github.com/Dtsyp/FTTC-PROF-DEV-HUB/issues/25) |
+| [F-AN · #71](https://github.com/Dtsyp/FTTC-PROF-DEV-HUB/issues/71) | Добавить историю периодов, договорённостей и согласованную аналитику | [E-MEET · #15](https://github.com/Dtsyp/FTTC-PROF-DEV-HUB/issues/15) | P2 | P2 | [F-MET · #69](https://github.com/Dtsyp/FTTC-PROF-DEV-HUB/issues/69), [M28 · #53](https://github.com/Dtsyp/FTTC-PROF-DEV-HUB/issues/53), [M31 · #56](https://github.com/Dtsyp/FTTC-PROF-DEV-HUB/issues/56), [F-COL · #66](https://github.com/Dtsyp/FTTC-PROF-DEV-HUB/issues/66) |
+| [F-AI · #72](https://github.com/Dtsyp/FTTC-PROF-DEV-HUB/issues/72) | Проверить качество и допустимый контур OCR/STT для русского и английского | [E-MEET · #15](https://github.com/Dtsyp/FTTC-PROF-DEV-HUB/issues/15) | P1 · исследование | P2 | [D-ACCESS · #22](https://github.com/Dtsyp/FTTC-PROF-DEV-HUB/issues/22) |
+| [F-MEDIA · #73](https://github.com/Dtsyp/FTTC-PROF-DEV-HUB/issues/73) | Реализовать защищённую обработку материалов 1-1 и проверку результатов человеком | [E-MEET · #15](https://github.com/Dtsyp/FTTC-PROF-DEV-HUB/issues/15) | P3 | P2 | [F-AI · #72](https://github.com/Dtsyp/FTTC-PROF-DEV-HUB/issues/72), [M34 · #58](https://github.com/Dtsyp/FTTC-PROF-DEV-HUB/issues/58), [D-MEET · #25](https://github.com/Dtsyp/FTTC-PROF-DEV-HUB/issues/25) |
+| [F-EMO · #74](https://github.com/Dtsyp/FTTC-PROF-DEV-HUB/issues/74) | Получить отдельное решение об опциональном анализе эмоционального тона | [E-MEET · #15](https://github.com/Dtsyp/FTTC-PROF-DEV-HUB/issues/15) | После P2 · опция | P2 | [F-AI · #72](https://github.com/Dtsyp/FTTC-PROF-DEV-HUB/issues/72) |
+| [F-OPS · #75](https://github.com/Dtsyp/FTTC-PROF-DEV-HUB/issues/75) | Принять эксплуатацию полной платформы и передать сопровождению | [E-OPS · #16](https://github.com/Dtsyp/FTTC-PROF-DEV-HUB/issues/16) | P4 | P2 | [F-15 · #65](https://github.com/Dtsyp/FTTC-PROF-DEV-HUB/issues/65), [F-COL · #66](https://github.com/Dtsyp/FTTC-PROF-DEV-HUB/issues/66), [F-DISC · #67](https://github.com/Dtsyp/FTTC-PROF-DEV-HUB/issues/67), [F-CAL · #68](https://github.com/Dtsyp/FTTC-PROF-DEV-HUB/issues/68), [F-DOC · #70](https://github.com/Dtsyp/FTTC-PROF-DEV-HUB/issues/70), [F-AN · #71](https://github.com/Dtsyp/FTTC-PROF-DEV-HUB/issues/71), [F-MEDIA · #73](https://github.com/Dtsyp/FTTC-PROF-DEV-HUB/issues/73), [M37 · #63](https://github.com/Dtsyp/FTTC-PROF-DEV-HUB/issues/63) |
 
 ## Требование → первичные задачи
 
@@ -99,79 +99,79 @@
 
 | Требование | Пилот и подготовка | Полный продукт / исследование |
 |---|---|---|
-| G01 | S-QA, D-SCOPE, D-ACCESS, D-ENV, M01, M02, M04, M05, M06, M32, M33, M34, M35, M36, M37 | F-COL, F-OPS |
-| G02 | S-QA, D-ACCESS, M05, M06, M11, M23, M31, M34, M35, M37, M38 | F-MET, F-AN, F-OPS |
-| B1-01 | D-RULES, M07, M08, M19, M28 | Проверяется в пилоте |
-| B1-02 | S-FLOW, D-RULES, M09, M22 | Проверяется в пилоте |
-| B1-03 | S-FLOW, D-RULES, M03, M09, M21, M22 | Проверяется в пилоте |
-| B1-04 | D-RULES, M10 | Проверяется в пилоте |
-| B1-05 | S-FLOW, D-RULES, M23, M31 | F-MET, F-AN |
-| B1-06 | S-QA, D-ACCESS, M11, M35 | F-COL |
-| B1-07 | Последующая поставка | F-COL, F-DISC, F-AN |
-| B1-08 | Последующая поставка | F-COL |
-| B1-09 | Последующая поставка | F-COL |
-| B1-10 | D-RULES, M07, M09 | F-COL |
-| B2-01 | D-MEET, M25 | F-DOC, F-AN |
-| B2-02 | D-RULES, M07, M25 | F-MET, F-AN |
-| B2-03 | D-MEET, M25, M26, M38 | F-DOC, F-AN |
-| B2-04 | D-SCOPE, D-MEET, M26 | F-DOC |
-| B2-05 | D-MEET | F-DOC, F-MEDIA |
-| B2-06 | M27 | F-AI, F-MEDIA |
-| B2-07 | D-MEET, M27, M38 | F-AN, F-AI, F-MEDIA |
-| B2-08 | S-QA, D-ACCESS, D-ENV, D-MEET, M05, M06, M25, M26, M32, M34, M35, M37, M38 | F-DOC, F-AI, F-MEDIA, F-OPS |
-| B2-09 | M31 | F-MET, F-AN, F-MEDIA |
-| B2-10 | Последующая поставка | F-EMO |
-| B2-11 | D-RULES, M27 | F-MET, F-DOC, F-AN |
-| B2-12 | D-MEET, M27, M28 | F-AN |
-| B2-13 | D-MEET, M03, M27, M28 | F-AN |
-| B2-14 | D-MEET, M03, M29, M30, M33, M34 | F-CAL |
-| B2-15 | D-ACCESS, M05, M31 | F-CAL, F-MET, F-DOC, F-AN |
-| B3-01 | D-SCOPE, D-SOURCE, M14, M16 | F-SRC, F-15, F-OPS |
-| B3-02 | S-DATA, D-SOURCE, M12, M16 | F-SRC, F-15 |
-| B3-03 | S-DATA, D-SOURCE, M13, M15 | F-15 |
-| B3-04 | D-SOURCE, M03, M14, M15, M16, M29, M30, M33, M35 | F-15, F-CAL |
-| B3-05 | D-RULES, M07, M10, M24 | F-DISC, F-MET, F-AN |
-| B3-06 | M19, M20, M21, M22 | Проверяется в пилоте |
-| B3-07 | M18 | F-15, F-DISC |
-| B3-08 | D-ACCESS, M10, M12, M13, M14 | F-15, F-MET, F-AN |
-| B4-01 | D-SCOPE, D-SOURCE, M14, M17 | F-SRC, F-15, F-OPS |
-| B4-02 | S-DATA, D-SOURCE, M12, M17 | F-SRC, F-15 |
-| B4-03 | S-DATA, D-SOURCE, M13, M15 | F-15 |
-| B4-04 | D-SOURCE, M03, M14, M15, M17, M29, M30, M33, M35 | F-15, F-CAL |
-| B4-05 | M18 | F-15, F-DISC |
-| B4-06 | M19, M20 | F-CAL |
-| B4-07 | S-DATA, M29, M30 | F-CAL |
-| B4-08 | D-ACCESS, M31 | F-MET, F-AN |
-| B4-09 | M12, M13, M14 | F-15 |
-| X01 | M08, M23, M24, M35 | F-DISC |
-| X02 | S-FLOW, M08, M19, M20, M35 | Проверяется в пилоте |
-| X03 | S-FLOW, D-RULES, M21, M22, M23, M35 | Проверяется в пилоте |
-| X04 | D-SCOPE | F-DISC |
-| X05 | D-SCOPE, M18, M35 | F-DISC |
-| X06 | D-SCOPE, M20, M25, M30, M35 | F-DOC |
-| X07 | D-SCOPE, D-MEET, M27, M28, M35 | F-DOC, F-AN |
-| X08 | S-FLOW, D-SCOPE, D-ENV, M02, M03, M22, M24, M28, M32, M34, M35, M36, M37 | F-OPS |
+| G01 | [S-QA · #17](https://github.com/Dtsyp/FTTC-PROF-DEV-HUB/issues/17), [D-SCOPE · #20](https://github.com/Dtsyp/FTTC-PROF-DEV-HUB/issues/20), [D-ACCESS · #22](https://github.com/Dtsyp/FTTC-PROF-DEV-HUB/issues/22), [D-ENV · #23](https://github.com/Dtsyp/FTTC-PROF-DEV-HUB/issues/23), [M01 · #26](https://github.com/Dtsyp/FTTC-PROF-DEV-HUB/issues/26), [M02 · #27](https://github.com/Dtsyp/FTTC-PROF-DEV-HUB/issues/27), [M04 · #29](https://github.com/Dtsyp/FTTC-PROF-DEV-HUB/issues/29), [M05 · #31](https://github.com/Dtsyp/FTTC-PROF-DEV-HUB/issues/31), [M06 · #30](https://github.com/Dtsyp/FTTC-PROF-DEV-HUB/issues/30), [M32 · #57](https://github.com/Dtsyp/FTTC-PROF-DEV-HUB/issues/57), [M33 · #59](https://github.com/Dtsyp/FTTC-PROF-DEV-HUB/issues/59), [M34 · #58](https://github.com/Dtsyp/FTTC-PROF-DEV-HUB/issues/58), [M35 · #62](https://github.com/Dtsyp/FTTC-PROF-DEV-HUB/issues/62), [M36 · #60](https://github.com/Dtsyp/FTTC-PROF-DEV-HUB/issues/60), [M37 · #63](https://github.com/Dtsyp/FTTC-PROF-DEV-HUB/issues/63) | [F-COL · #66](https://github.com/Dtsyp/FTTC-PROF-DEV-HUB/issues/66), [F-OPS · #75](https://github.com/Dtsyp/FTTC-PROF-DEV-HUB/issues/75) |
+| G02 | [S-QA · #17](https://github.com/Dtsyp/FTTC-PROF-DEV-HUB/issues/17), [D-ACCESS · #22](https://github.com/Dtsyp/FTTC-PROF-DEV-HUB/issues/22), [M05 · #31](https://github.com/Dtsyp/FTTC-PROF-DEV-HUB/issues/31), [M06 · #30](https://github.com/Dtsyp/FTTC-PROF-DEV-HUB/issues/30), [M11 · #35](https://github.com/Dtsyp/FTTC-PROF-DEV-HUB/issues/35), [M23 · #48](https://github.com/Dtsyp/FTTC-PROF-DEV-HUB/issues/48), [M31 · #56](https://github.com/Dtsyp/FTTC-PROF-DEV-HUB/issues/56), [M34 · #58](https://github.com/Dtsyp/FTTC-PROF-DEV-HUB/issues/58), [M35 · #62](https://github.com/Dtsyp/FTTC-PROF-DEV-HUB/issues/62), [M37 · #63](https://github.com/Dtsyp/FTTC-PROF-DEV-HUB/issues/63), [M38 · #61](https://github.com/Dtsyp/FTTC-PROF-DEV-HUB/issues/61) | [F-MET · #69](https://github.com/Dtsyp/FTTC-PROF-DEV-HUB/issues/69), [F-AN · #71](https://github.com/Dtsyp/FTTC-PROF-DEV-HUB/issues/71), [F-OPS · #75](https://github.com/Dtsyp/FTTC-PROF-DEV-HUB/issues/75) |
+| B1-01 | [D-RULES · #21](https://github.com/Dtsyp/FTTC-PROF-DEV-HUB/issues/21), [M07 · #32](https://github.com/Dtsyp/FTTC-PROF-DEV-HUB/issues/32), [M08 · #33](https://github.com/Dtsyp/FTTC-PROF-DEV-HUB/issues/33), [M19 · #44](https://github.com/Dtsyp/FTTC-PROF-DEV-HUB/issues/44), [M28 · #53](https://github.com/Dtsyp/FTTC-PROF-DEV-HUB/issues/53) | Проверяется в пилоте |
+| B1-02 | [S-FLOW · #19](https://github.com/Dtsyp/FTTC-PROF-DEV-HUB/issues/19), [D-RULES · #21](https://github.com/Dtsyp/FTTC-PROF-DEV-HUB/issues/21), [M09 · #34](https://github.com/Dtsyp/FTTC-PROF-DEV-HUB/issues/34), [M22 · #47](https://github.com/Dtsyp/FTTC-PROF-DEV-HUB/issues/47) | Проверяется в пилоте |
+| B1-03 | [S-FLOW · #19](https://github.com/Dtsyp/FTTC-PROF-DEV-HUB/issues/19), [D-RULES · #21](https://github.com/Dtsyp/FTTC-PROF-DEV-HUB/issues/21), [M03 · #28](https://github.com/Dtsyp/FTTC-PROF-DEV-HUB/issues/28), [M09 · #34](https://github.com/Dtsyp/FTTC-PROF-DEV-HUB/issues/34), [M21 · #46](https://github.com/Dtsyp/FTTC-PROF-DEV-HUB/issues/46), [M22 · #47](https://github.com/Dtsyp/FTTC-PROF-DEV-HUB/issues/47) | Проверяется в пилоте |
+| B1-04 | [D-RULES · #21](https://github.com/Dtsyp/FTTC-PROF-DEV-HUB/issues/21), [M10 · #37](https://github.com/Dtsyp/FTTC-PROF-DEV-HUB/issues/37) | Проверяется в пилоте |
+| B1-05 | [S-FLOW · #19](https://github.com/Dtsyp/FTTC-PROF-DEV-HUB/issues/19), [D-RULES · #21](https://github.com/Dtsyp/FTTC-PROF-DEV-HUB/issues/21), [M23 · #48](https://github.com/Dtsyp/FTTC-PROF-DEV-HUB/issues/48), [M31 · #56](https://github.com/Dtsyp/FTTC-PROF-DEV-HUB/issues/56) | [F-MET · #69](https://github.com/Dtsyp/FTTC-PROF-DEV-HUB/issues/69), [F-AN · #71](https://github.com/Dtsyp/FTTC-PROF-DEV-HUB/issues/71) |
+| B1-06 | [S-QA · #17](https://github.com/Dtsyp/FTTC-PROF-DEV-HUB/issues/17), [D-ACCESS · #22](https://github.com/Dtsyp/FTTC-PROF-DEV-HUB/issues/22), [M11 · #35](https://github.com/Dtsyp/FTTC-PROF-DEV-HUB/issues/35), [M35 · #62](https://github.com/Dtsyp/FTTC-PROF-DEV-HUB/issues/62) | [F-COL · #66](https://github.com/Dtsyp/FTTC-PROF-DEV-HUB/issues/66) |
+| B1-07 | Последующая поставка | [F-COL · #66](https://github.com/Dtsyp/FTTC-PROF-DEV-HUB/issues/66), [F-DISC · #67](https://github.com/Dtsyp/FTTC-PROF-DEV-HUB/issues/67), [F-AN · #71](https://github.com/Dtsyp/FTTC-PROF-DEV-HUB/issues/71) |
+| B1-08 | Последующая поставка | [F-COL · #66](https://github.com/Dtsyp/FTTC-PROF-DEV-HUB/issues/66) |
+| B1-09 | Последующая поставка | [F-COL · #66](https://github.com/Dtsyp/FTTC-PROF-DEV-HUB/issues/66) |
+| B1-10 | [D-RULES · #21](https://github.com/Dtsyp/FTTC-PROF-DEV-HUB/issues/21), [M07 · #32](https://github.com/Dtsyp/FTTC-PROF-DEV-HUB/issues/32), [M09 · #34](https://github.com/Dtsyp/FTTC-PROF-DEV-HUB/issues/34) | [F-COL · #66](https://github.com/Dtsyp/FTTC-PROF-DEV-HUB/issues/66) |
+| B2-01 | [D-MEET · #25](https://github.com/Dtsyp/FTTC-PROF-DEV-HUB/issues/25), [M25 · #50](https://github.com/Dtsyp/FTTC-PROF-DEV-HUB/issues/50) | [F-DOC · #70](https://github.com/Dtsyp/FTTC-PROF-DEV-HUB/issues/70), [F-AN · #71](https://github.com/Dtsyp/FTTC-PROF-DEV-HUB/issues/71) |
+| B2-02 | [D-RULES · #21](https://github.com/Dtsyp/FTTC-PROF-DEV-HUB/issues/21), [M07 · #32](https://github.com/Dtsyp/FTTC-PROF-DEV-HUB/issues/32), [M25 · #50](https://github.com/Dtsyp/FTTC-PROF-DEV-HUB/issues/50) | [F-MET · #69](https://github.com/Dtsyp/FTTC-PROF-DEV-HUB/issues/69), [F-AN · #71](https://github.com/Dtsyp/FTTC-PROF-DEV-HUB/issues/71) |
+| B2-03 | [D-MEET · #25](https://github.com/Dtsyp/FTTC-PROF-DEV-HUB/issues/25), [M25 · #50](https://github.com/Dtsyp/FTTC-PROF-DEV-HUB/issues/50), [M26 · #51](https://github.com/Dtsyp/FTTC-PROF-DEV-HUB/issues/51), [M38 · #61](https://github.com/Dtsyp/FTTC-PROF-DEV-HUB/issues/61) | [F-DOC · #70](https://github.com/Dtsyp/FTTC-PROF-DEV-HUB/issues/70), [F-AN · #71](https://github.com/Dtsyp/FTTC-PROF-DEV-HUB/issues/71) |
+| B2-04 | [D-SCOPE · #20](https://github.com/Dtsyp/FTTC-PROF-DEV-HUB/issues/20), [D-MEET · #25](https://github.com/Dtsyp/FTTC-PROF-DEV-HUB/issues/25), [M26 · #51](https://github.com/Dtsyp/FTTC-PROF-DEV-HUB/issues/51) | [F-DOC · #70](https://github.com/Dtsyp/FTTC-PROF-DEV-HUB/issues/70) |
+| B2-05 | [D-MEET · #25](https://github.com/Dtsyp/FTTC-PROF-DEV-HUB/issues/25) | [F-DOC · #70](https://github.com/Dtsyp/FTTC-PROF-DEV-HUB/issues/70), [F-MEDIA · #73](https://github.com/Dtsyp/FTTC-PROF-DEV-HUB/issues/73) |
+| B2-06 | [M27 · #52](https://github.com/Dtsyp/FTTC-PROF-DEV-HUB/issues/52) | [F-AI · #72](https://github.com/Dtsyp/FTTC-PROF-DEV-HUB/issues/72), [F-MEDIA · #73](https://github.com/Dtsyp/FTTC-PROF-DEV-HUB/issues/73) |
+| B2-07 | [D-MEET · #25](https://github.com/Dtsyp/FTTC-PROF-DEV-HUB/issues/25), [M27 · #52](https://github.com/Dtsyp/FTTC-PROF-DEV-HUB/issues/52), [M38 · #61](https://github.com/Dtsyp/FTTC-PROF-DEV-HUB/issues/61) | [F-AN · #71](https://github.com/Dtsyp/FTTC-PROF-DEV-HUB/issues/71), [F-AI · #72](https://github.com/Dtsyp/FTTC-PROF-DEV-HUB/issues/72), [F-MEDIA · #73](https://github.com/Dtsyp/FTTC-PROF-DEV-HUB/issues/73) |
+| B2-08 | [S-QA · #17](https://github.com/Dtsyp/FTTC-PROF-DEV-HUB/issues/17), [D-ACCESS · #22](https://github.com/Dtsyp/FTTC-PROF-DEV-HUB/issues/22), [D-ENV · #23](https://github.com/Dtsyp/FTTC-PROF-DEV-HUB/issues/23), [D-MEET · #25](https://github.com/Dtsyp/FTTC-PROF-DEV-HUB/issues/25), [M05 · #31](https://github.com/Dtsyp/FTTC-PROF-DEV-HUB/issues/31), [M06 · #30](https://github.com/Dtsyp/FTTC-PROF-DEV-HUB/issues/30), [M25 · #50](https://github.com/Dtsyp/FTTC-PROF-DEV-HUB/issues/50), [M26 · #51](https://github.com/Dtsyp/FTTC-PROF-DEV-HUB/issues/51), [M32 · #57](https://github.com/Dtsyp/FTTC-PROF-DEV-HUB/issues/57), [M34 · #58](https://github.com/Dtsyp/FTTC-PROF-DEV-HUB/issues/58), [M35 · #62](https://github.com/Dtsyp/FTTC-PROF-DEV-HUB/issues/62), [M37 · #63](https://github.com/Dtsyp/FTTC-PROF-DEV-HUB/issues/63), [M38 · #61](https://github.com/Dtsyp/FTTC-PROF-DEV-HUB/issues/61) | [F-DOC · #70](https://github.com/Dtsyp/FTTC-PROF-DEV-HUB/issues/70), [F-AI · #72](https://github.com/Dtsyp/FTTC-PROF-DEV-HUB/issues/72), [F-MEDIA · #73](https://github.com/Dtsyp/FTTC-PROF-DEV-HUB/issues/73), [F-OPS · #75](https://github.com/Dtsyp/FTTC-PROF-DEV-HUB/issues/75) |
+| B2-09 | [M31 · #56](https://github.com/Dtsyp/FTTC-PROF-DEV-HUB/issues/56) | [F-MET · #69](https://github.com/Dtsyp/FTTC-PROF-DEV-HUB/issues/69), [F-AN · #71](https://github.com/Dtsyp/FTTC-PROF-DEV-HUB/issues/71), [F-MEDIA · #73](https://github.com/Dtsyp/FTTC-PROF-DEV-HUB/issues/73) |
+| B2-10 | Последующая поставка | [F-EMO · #74](https://github.com/Dtsyp/FTTC-PROF-DEV-HUB/issues/74) |
+| B2-11 | [D-RULES · #21](https://github.com/Dtsyp/FTTC-PROF-DEV-HUB/issues/21), [M27 · #52](https://github.com/Dtsyp/FTTC-PROF-DEV-HUB/issues/52) | [F-MET · #69](https://github.com/Dtsyp/FTTC-PROF-DEV-HUB/issues/69), [F-DOC · #70](https://github.com/Dtsyp/FTTC-PROF-DEV-HUB/issues/70), [F-AN · #71](https://github.com/Dtsyp/FTTC-PROF-DEV-HUB/issues/71) |
+| B2-12 | [D-MEET · #25](https://github.com/Dtsyp/FTTC-PROF-DEV-HUB/issues/25), [M27 · #52](https://github.com/Dtsyp/FTTC-PROF-DEV-HUB/issues/52), [M28 · #53](https://github.com/Dtsyp/FTTC-PROF-DEV-HUB/issues/53) | [F-AN · #71](https://github.com/Dtsyp/FTTC-PROF-DEV-HUB/issues/71) |
+| B2-13 | [D-MEET · #25](https://github.com/Dtsyp/FTTC-PROF-DEV-HUB/issues/25), [M03 · #28](https://github.com/Dtsyp/FTTC-PROF-DEV-HUB/issues/28), [M27 · #52](https://github.com/Dtsyp/FTTC-PROF-DEV-HUB/issues/52), [M28 · #53](https://github.com/Dtsyp/FTTC-PROF-DEV-HUB/issues/53) | [F-AN · #71](https://github.com/Dtsyp/FTTC-PROF-DEV-HUB/issues/71) |
+| B2-14 | [D-MEET · #25](https://github.com/Dtsyp/FTTC-PROF-DEV-HUB/issues/25), [M03 · #28](https://github.com/Dtsyp/FTTC-PROF-DEV-HUB/issues/28), [M29 · #54](https://github.com/Dtsyp/FTTC-PROF-DEV-HUB/issues/54), [M30 · #55](https://github.com/Dtsyp/FTTC-PROF-DEV-HUB/issues/55), [M33 · #59](https://github.com/Dtsyp/FTTC-PROF-DEV-HUB/issues/59), [M34 · #58](https://github.com/Dtsyp/FTTC-PROF-DEV-HUB/issues/58) | [F-CAL · #68](https://github.com/Dtsyp/FTTC-PROF-DEV-HUB/issues/68) |
+| B2-15 | [D-ACCESS · #22](https://github.com/Dtsyp/FTTC-PROF-DEV-HUB/issues/22), [M05 · #31](https://github.com/Dtsyp/FTTC-PROF-DEV-HUB/issues/31), [M31 · #56](https://github.com/Dtsyp/FTTC-PROF-DEV-HUB/issues/56) | [F-CAL · #68](https://github.com/Dtsyp/FTTC-PROF-DEV-HUB/issues/68), [F-MET · #69](https://github.com/Dtsyp/FTTC-PROF-DEV-HUB/issues/69), [F-DOC · #70](https://github.com/Dtsyp/FTTC-PROF-DEV-HUB/issues/70), [F-AN · #71](https://github.com/Dtsyp/FTTC-PROF-DEV-HUB/issues/71) |
+| B3-01 | [D-SCOPE · #20](https://github.com/Dtsyp/FTTC-PROF-DEV-HUB/issues/20), [D-SOURCE · #24](https://github.com/Dtsyp/FTTC-PROF-DEV-HUB/issues/24), [M14 · #39](https://github.com/Dtsyp/FTTC-PROF-DEV-HUB/issues/39), [M16 · #41](https://github.com/Dtsyp/FTTC-PROF-DEV-HUB/issues/41) | [F-SRC · #64](https://github.com/Dtsyp/FTTC-PROF-DEV-HUB/issues/64), [F-15 · #65](https://github.com/Dtsyp/FTTC-PROF-DEV-HUB/issues/65), [F-OPS · #75](https://github.com/Dtsyp/FTTC-PROF-DEV-HUB/issues/75) |
+| B3-02 | [S-DATA · #18](https://github.com/Dtsyp/FTTC-PROF-DEV-HUB/issues/18), [D-SOURCE · #24](https://github.com/Dtsyp/FTTC-PROF-DEV-HUB/issues/24), [M12 · #36](https://github.com/Dtsyp/FTTC-PROF-DEV-HUB/issues/36), [M16 · #41](https://github.com/Dtsyp/FTTC-PROF-DEV-HUB/issues/41) | [F-SRC · #64](https://github.com/Dtsyp/FTTC-PROF-DEV-HUB/issues/64), [F-15 · #65](https://github.com/Dtsyp/FTTC-PROF-DEV-HUB/issues/65) |
+| B3-03 | [S-DATA · #18](https://github.com/Dtsyp/FTTC-PROF-DEV-HUB/issues/18), [D-SOURCE · #24](https://github.com/Dtsyp/FTTC-PROF-DEV-HUB/issues/24), [M13 · #38](https://github.com/Dtsyp/FTTC-PROF-DEV-HUB/issues/38), [M15 · #40](https://github.com/Dtsyp/FTTC-PROF-DEV-HUB/issues/40) | [F-15 · #65](https://github.com/Dtsyp/FTTC-PROF-DEV-HUB/issues/65) |
+| B3-04 | [D-SOURCE · #24](https://github.com/Dtsyp/FTTC-PROF-DEV-HUB/issues/24), [M03 · #28](https://github.com/Dtsyp/FTTC-PROF-DEV-HUB/issues/28), [M14 · #39](https://github.com/Dtsyp/FTTC-PROF-DEV-HUB/issues/39), [M15 · #40](https://github.com/Dtsyp/FTTC-PROF-DEV-HUB/issues/40), [M16 · #41](https://github.com/Dtsyp/FTTC-PROF-DEV-HUB/issues/41), [M29 · #54](https://github.com/Dtsyp/FTTC-PROF-DEV-HUB/issues/54), [M30 · #55](https://github.com/Dtsyp/FTTC-PROF-DEV-HUB/issues/55), [M33 · #59](https://github.com/Dtsyp/FTTC-PROF-DEV-HUB/issues/59), [M35 · #62](https://github.com/Dtsyp/FTTC-PROF-DEV-HUB/issues/62) | [F-15 · #65](https://github.com/Dtsyp/FTTC-PROF-DEV-HUB/issues/65), [F-CAL · #68](https://github.com/Dtsyp/FTTC-PROF-DEV-HUB/issues/68) |
+| B3-05 | [D-RULES · #21](https://github.com/Dtsyp/FTTC-PROF-DEV-HUB/issues/21), [M07 · #32](https://github.com/Dtsyp/FTTC-PROF-DEV-HUB/issues/32), [M10 · #37](https://github.com/Dtsyp/FTTC-PROF-DEV-HUB/issues/37), [M24 · #49](https://github.com/Dtsyp/FTTC-PROF-DEV-HUB/issues/49) | [F-DISC · #67](https://github.com/Dtsyp/FTTC-PROF-DEV-HUB/issues/67), [F-MET · #69](https://github.com/Dtsyp/FTTC-PROF-DEV-HUB/issues/69), [F-AN · #71](https://github.com/Dtsyp/FTTC-PROF-DEV-HUB/issues/71) |
+| B3-06 | [M19 · #44](https://github.com/Dtsyp/FTTC-PROF-DEV-HUB/issues/44), [M20 · #45](https://github.com/Dtsyp/FTTC-PROF-DEV-HUB/issues/45), [M21 · #46](https://github.com/Dtsyp/FTTC-PROF-DEV-HUB/issues/46), [M22 · #47](https://github.com/Dtsyp/FTTC-PROF-DEV-HUB/issues/47) | Проверяется в пилоте |
+| B3-07 | [M18 · #43](https://github.com/Dtsyp/FTTC-PROF-DEV-HUB/issues/43) | [F-15 · #65](https://github.com/Dtsyp/FTTC-PROF-DEV-HUB/issues/65), [F-DISC · #67](https://github.com/Dtsyp/FTTC-PROF-DEV-HUB/issues/67) |
+| B3-08 | [D-ACCESS · #22](https://github.com/Dtsyp/FTTC-PROF-DEV-HUB/issues/22), [M10 · #37](https://github.com/Dtsyp/FTTC-PROF-DEV-HUB/issues/37), [M12 · #36](https://github.com/Dtsyp/FTTC-PROF-DEV-HUB/issues/36), [M13 · #38](https://github.com/Dtsyp/FTTC-PROF-DEV-HUB/issues/38), [M14 · #39](https://github.com/Dtsyp/FTTC-PROF-DEV-HUB/issues/39) | [F-15 · #65](https://github.com/Dtsyp/FTTC-PROF-DEV-HUB/issues/65), [F-MET · #69](https://github.com/Dtsyp/FTTC-PROF-DEV-HUB/issues/69), [F-AN · #71](https://github.com/Dtsyp/FTTC-PROF-DEV-HUB/issues/71) |
+| B4-01 | [D-SCOPE · #20](https://github.com/Dtsyp/FTTC-PROF-DEV-HUB/issues/20), [D-SOURCE · #24](https://github.com/Dtsyp/FTTC-PROF-DEV-HUB/issues/24), [M14 · #39](https://github.com/Dtsyp/FTTC-PROF-DEV-HUB/issues/39), [M17 · #42](https://github.com/Dtsyp/FTTC-PROF-DEV-HUB/issues/42) | [F-SRC · #64](https://github.com/Dtsyp/FTTC-PROF-DEV-HUB/issues/64), [F-15 · #65](https://github.com/Dtsyp/FTTC-PROF-DEV-HUB/issues/65), [F-OPS · #75](https://github.com/Dtsyp/FTTC-PROF-DEV-HUB/issues/75) |
+| B4-02 | [S-DATA · #18](https://github.com/Dtsyp/FTTC-PROF-DEV-HUB/issues/18), [D-SOURCE · #24](https://github.com/Dtsyp/FTTC-PROF-DEV-HUB/issues/24), [M12 · #36](https://github.com/Dtsyp/FTTC-PROF-DEV-HUB/issues/36), [M17 · #42](https://github.com/Dtsyp/FTTC-PROF-DEV-HUB/issues/42) | [F-SRC · #64](https://github.com/Dtsyp/FTTC-PROF-DEV-HUB/issues/64), [F-15 · #65](https://github.com/Dtsyp/FTTC-PROF-DEV-HUB/issues/65) |
+| B4-03 | [S-DATA · #18](https://github.com/Dtsyp/FTTC-PROF-DEV-HUB/issues/18), [D-SOURCE · #24](https://github.com/Dtsyp/FTTC-PROF-DEV-HUB/issues/24), [M13 · #38](https://github.com/Dtsyp/FTTC-PROF-DEV-HUB/issues/38), [M15 · #40](https://github.com/Dtsyp/FTTC-PROF-DEV-HUB/issues/40) | [F-15 · #65](https://github.com/Dtsyp/FTTC-PROF-DEV-HUB/issues/65) |
+| B4-04 | [D-SOURCE · #24](https://github.com/Dtsyp/FTTC-PROF-DEV-HUB/issues/24), [M03 · #28](https://github.com/Dtsyp/FTTC-PROF-DEV-HUB/issues/28), [M14 · #39](https://github.com/Dtsyp/FTTC-PROF-DEV-HUB/issues/39), [M15 · #40](https://github.com/Dtsyp/FTTC-PROF-DEV-HUB/issues/40), [M17 · #42](https://github.com/Dtsyp/FTTC-PROF-DEV-HUB/issues/42), [M29 · #54](https://github.com/Dtsyp/FTTC-PROF-DEV-HUB/issues/54), [M30 · #55](https://github.com/Dtsyp/FTTC-PROF-DEV-HUB/issues/55), [M33 · #59](https://github.com/Dtsyp/FTTC-PROF-DEV-HUB/issues/59), [M35 · #62](https://github.com/Dtsyp/FTTC-PROF-DEV-HUB/issues/62) | [F-15 · #65](https://github.com/Dtsyp/FTTC-PROF-DEV-HUB/issues/65), [F-CAL · #68](https://github.com/Dtsyp/FTTC-PROF-DEV-HUB/issues/68) |
+| B4-05 | [M18 · #43](https://github.com/Dtsyp/FTTC-PROF-DEV-HUB/issues/43) | [F-15 · #65](https://github.com/Dtsyp/FTTC-PROF-DEV-HUB/issues/65), [F-DISC · #67](https://github.com/Dtsyp/FTTC-PROF-DEV-HUB/issues/67) |
+| B4-06 | [M19 · #44](https://github.com/Dtsyp/FTTC-PROF-DEV-HUB/issues/44), [M20 · #45](https://github.com/Dtsyp/FTTC-PROF-DEV-HUB/issues/45) | [F-CAL · #68](https://github.com/Dtsyp/FTTC-PROF-DEV-HUB/issues/68) |
+| B4-07 | [S-DATA · #18](https://github.com/Dtsyp/FTTC-PROF-DEV-HUB/issues/18), [M29 · #54](https://github.com/Dtsyp/FTTC-PROF-DEV-HUB/issues/54), [M30 · #55](https://github.com/Dtsyp/FTTC-PROF-DEV-HUB/issues/55) | [F-CAL · #68](https://github.com/Dtsyp/FTTC-PROF-DEV-HUB/issues/68) |
+| B4-08 | [D-ACCESS · #22](https://github.com/Dtsyp/FTTC-PROF-DEV-HUB/issues/22), [M31 · #56](https://github.com/Dtsyp/FTTC-PROF-DEV-HUB/issues/56) | [F-MET · #69](https://github.com/Dtsyp/FTTC-PROF-DEV-HUB/issues/69), [F-AN · #71](https://github.com/Dtsyp/FTTC-PROF-DEV-HUB/issues/71) |
+| B4-09 | [M12 · #36](https://github.com/Dtsyp/FTTC-PROF-DEV-HUB/issues/36), [M13 · #38](https://github.com/Dtsyp/FTTC-PROF-DEV-HUB/issues/38), [M14 · #39](https://github.com/Dtsyp/FTTC-PROF-DEV-HUB/issues/39) | [F-15 · #65](https://github.com/Dtsyp/FTTC-PROF-DEV-HUB/issues/65) |
+| X01 | [M08 · #33](https://github.com/Dtsyp/FTTC-PROF-DEV-HUB/issues/33), [M23 · #48](https://github.com/Dtsyp/FTTC-PROF-DEV-HUB/issues/48), [M24 · #49](https://github.com/Dtsyp/FTTC-PROF-DEV-HUB/issues/49), [M35 · #62](https://github.com/Dtsyp/FTTC-PROF-DEV-HUB/issues/62) | [F-DISC · #67](https://github.com/Dtsyp/FTTC-PROF-DEV-HUB/issues/67) |
+| X02 | [S-FLOW · #19](https://github.com/Dtsyp/FTTC-PROF-DEV-HUB/issues/19), [M08 · #33](https://github.com/Dtsyp/FTTC-PROF-DEV-HUB/issues/33), [M19 · #44](https://github.com/Dtsyp/FTTC-PROF-DEV-HUB/issues/44), [M20 · #45](https://github.com/Dtsyp/FTTC-PROF-DEV-HUB/issues/45), [M35 · #62](https://github.com/Dtsyp/FTTC-PROF-DEV-HUB/issues/62) | Проверяется в пилоте |
+| X03 | [S-FLOW · #19](https://github.com/Dtsyp/FTTC-PROF-DEV-HUB/issues/19), [D-RULES · #21](https://github.com/Dtsyp/FTTC-PROF-DEV-HUB/issues/21), [M21 · #46](https://github.com/Dtsyp/FTTC-PROF-DEV-HUB/issues/46), [M22 · #47](https://github.com/Dtsyp/FTTC-PROF-DEV-HUB/issues/47), [M23 · #48](https://github.com/Dtsyp/FTTC-PROF-DEV-HUB/issues/48), [M35 · #62](https://github.com/Dtsyp/FTTC-PROF-DEV-HUB/issues/62) | Проверяется в пилоте |
+| X04 | [D-SCOPE · #20](https://github.com/Dtsyp/FTTC-PROF-DEV-HUB/issues/20) | [F-DISC · #67](https://github.com/Dtsyp/FTTC-PROF-DEV-HUB/issues/67) |
+| X05 | [D-SCOPE · #20](https://github.com/Dtsyp/FTTC-PROF-DEV-HUB/issues/20), [M18 · #43](https://github.com/Dtsyp/FTTC-PROF-DEV-HUB/issues/43), [M35 · #62](https://github.com/Dtsyp/FTTC-PROF-DEV-HUB/issues/62) | [F-DISC · #67](https://github.com/Dtsyp/FTTC-PROF-DEV-HUB/issues/67) |
+| X06 | [D-SCOPE · #20](https://github.com/Dtsyp/FTTC-PROF-DEV-HUB/issues/20), [M20 · #45](https://github.com/Dtsyp/FTTC-PROF-DEV-HUB/issues/45), [M25 · #50](https://github.com/Dtsyp/FTTC-PROF-DEV-HUB/issues/50), [M30 · #55](https://github.com/Dtsyp/FTTC-PROF-DEV-HUB/issues/55), [M35 · #62](https://github.com/Dtsyp/FTTC-PROF-DEV-HUB/issues/62) | [F-DOC · #70](https://github.com/Dtsyp/FTTC-PROF-DEV-HUB/issues/70) |
+| X07 | [D-SCOPE · #20](https://github.com/Dtsyp/FTTC-PROF-DEV-HUB/issues/20), [D-MEET · #25](https://github.com/Dtsyp/FTTC-PROF-DEV-HUB/issues/25), [M27 · #52](https://github.com/Dtsyp/FTTC-PROF-DEV-HUB/issues/52), [M28 · #53](https://github.com/Dtsyp/FTTC-PROF-DEV-HUB/issues/53), [M35 · #62](https://github.com/Dtsyp/FTTC-PROF-DEV-HUB/issues/62) | [F-DOC · #70](https://github.com/Dtsyp/FTTC-PROF-DEV-HUB/issues/70), [F-AN · #71](https://github.com/Dtsyp/FTTC-PROF-DEV-HUB/issues/71) |
+| X08 | [S-FLOW · #19](https://github.com/Dtsyp/FTTC-PROF-DEV-HUB/issues/19), [D-SCOPE · #20](https://github.com/Dtsyp/FTTC-PROF-DEV-HUB/issues/20), [D-ENV · #23](https://github.com/Dtsyp/FTTC-PROF-DEV-HUB/issues/23), [M02 · #27](https://github.com/Dtsyp/FTTC-PROF-DEV-HUB/issues/27), [M03 · #28](https://github.com/Dtsyp/FTTC-PROF-DEV-HUB/issues/28), [M22 · #47](https://github.com/Dtsyp/FTTC-PROF-DEV-HUB/issues/47), [M24 · #49](https://github.com/Dtsyp/FTTC-PROF-DEV-HUB/issues/49), [M28 · #53](https://github.com/Dtsyp/FTTC-PROF-DEV-HUB/issues/53), [M32 · #57](https://github.com/Dtsyp/FTTC-PROF-DEV-HUB/issues/57), [M34 · #58](https://github.com/Dtsyp/FTTC-PROF-DEV-HUB/issues/58), [M35 · #62](https://github.com/Dtsyp/FTTC-PROF-DEV-HUB/issues/62), [M36 · #60](https://github.com/Dtsyp/FTTC-PROF-DEV-HUB/issues/60), [M37 · #63](https://github.com/Dtsyp/FTTC-PROF-DEV-HUB/issues/63) | [F-OPS · #75](https://github.com/Dtsyp/FTTC-PROF-DEV-HUB/issues/75) |
 
 ## Разночтения → решения владельцев
 
 | Вопрос в исходной матрице | Задачи для ответа |
 |---|---|
-| D01 | D-SCOPE, D-RULES |
-| D02 | D-RULES |
-| D03 | D-SCOPE, D-MEET |
-| D04 | D-SCOPE, D-MEET |
-| D05 | D-SCOPE, D-RULES |
-| D06 | D-SCOPE |
-| D07 | D-SCOPE |
-| D08 | D-SCOPE, F-DISC |
-| D09 | D-RULES, F-MET |
-| D10 | D-SOURCE |
-| D11 | D-RULES |
-| D12 | D-ACCESS, D-MEET |
-| D13 | D-RULES, D-ACCESS, F-MET |
-| D14 | D-SCOPE, D-SOURCE, F-AI |
-| D15 | D-SCOPE, D-MEET, F-CAL |
-| D16 | D-RULES, D-MEET |
-| D17 | F-AI, F-EMO |
-| D18 | D-ENV, D-ACCESS |
-| D19 | D-ACCESS, F-COL |
+| D01 | [D-SCOPE · #20](https://github.com/Dtsyp/FTTC-PROF-DEV-HUB/issues/20), [D-RULES · #21](https://github.com/Dtsyp/FTTC-PROF-DEV-HUB/issues/21) |
+| D02 | [D-RULES · #21](https://github.com/Dtsyp/FTTC-PROF-DEV-HUB/issues/21) |
+| D03 | [D-SCOPE · #20](https://github.com/Dtsyp/FTTC-PROF-DEV-HUB/issues/20), [D-MEET · #25](https://github.com/Dtsyp/FTTC-PROF-DEV-HUB/issues/25) |
+| D04 | [D-SCOPE · #20](https://github.com/Dtsyp/FTTC-PROF-DEV-HUB/issues/20), [D-MEET · #25](https://github.com/Dtsyp/FTTC-PROF-DEV-HUB/issues/25) |
+| D05 | [D-SCOPE · #20](https://github.com/Dtsyp/FTTC-PROF-DEV-HUB/issues/20), [D-RULES · #21](https://github.com/Dtsyp/FTTC-PROF-DEV-HUB/issues/21) |
+| D06 | [D-SCOPE · #20](https://github.com/Dtsyp/FTTC-PROF-DEV-HUB/issues/20) |
+| D07 | [D-SCOPE · #20](https://github.com/Dtsyp/FTTC-PROF-DEV-HUB/issues/20) |
+| D08 | [D-SCOPE · #20](https://github.com/Dtsyp/FTTC-PROF-DEV-HUB/issues/20), [F-DISC · #67](https://github.com/Dtsyp/FTTC-PROF-DEV-HUB/issues/67) |
+| D09 | [D-RULES · #21](https://github.com/Dtsyp/FTTC-PROF-DEV-HUB/issues/21), [F-MET · #69](https://github.com/Dtsyp/FTTC-PROF-DEV-HUB/issues/69) |
+| D10 | [D-SOURCE · #24](https://github.com/Dtsyp/FTTC-PROF-DEV-HUB/issues/24) |
+| D11 | [D-RULES · #21](https://github.com/Dtsyp/FTTC-PROF-DEV-HUB/issues/21) |
+| D12 | [D-ACCESS · #22](https://github.com/Dtsyp/FTTC-PROF-DEV-HUB/issues/22), [D-MEET · #25](https://github.com/Dtsyp/FTTC-PROF-DEV-HUB/issues/25) |
+| D13 | [D-RULES · #21](https://github.com/Dtsyp/FTTC-PROF-DEV-HUB/issues/21), [D-ACCESS · #22](https://github.com/Dtsyp/FTTC-PROF-DEV-HUB/issues/22), [F-MET · #69](https://github.com/Dtsyp/FTTC-PROF-DEV-HUB/issues/69) |
+| D14 | [D-SCOPE · #20](https://github.com/Dtsyp/FTTC-PROF-DEV-HUB/issues/20), [D-SOURCE · #24](https://github.com/Dtsyp/FTTC-PROF-DEV-HUB/issues/24), [F-AI · #72](https://github.com/Dtsyp/FTTC-PROF-DEV-HUB/issues/72) |
+| D15 | [D-SCOPE · #20](https://github.com/Dtsyp/FTTC-PROF-DEV-HUB/issues/20), [D-MEET · #25](https://github.com/Dtsyp/FTTC-PROF-DEV-HUB/issues/25), [F-CAL · #68](https://github.com/Dtsyp/FTTC-PROF-DEV-HUB/issues/68) |
+| D16 | [D-RULES · #21](https://github.com/Dtsyp/FTTC-PROF-DEV-HUB/issues/21), [D-MEET · #25](https://github.com/Dtsyp/FTTC-PROF-DEV-HUB/issues/25) |
+| D17 | [F-AI · #72](https://github.com/Dtsyp/FTTC-PROF-DEV-HUB/issues/72), [F-EMO · #74](https://github.com/Dtsyp/FTTC-PROF-DEV-HUB/issues/74) |
+| D18 | [D-ENV · #23](https://github.com/Dtsyp/FTTC-PROF-DEV-HUB/issues/23), [D-ACCESS · #22](https://github.com/Dtsyp/FTTC-PROF-DEV-HUB/issues/22) |
+| D19 | [D-ACCESS · #22](https://github.com/Dtsyp/FTTC-PROF-DEV-HUB/issues/22), [F-COL · #66](https://github.com/Dtsyp/FTTC-PROF-DEV-HUB/issues/66) |
