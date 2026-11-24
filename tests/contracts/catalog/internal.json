@@ -1,0 +1,149 @@
+{
+  "required_fields": {
+    "title": "Название",
+    "opportunity_type": "Тип",
+    "organizing_unit": "Подразделение-организатор",
+    "period": "Дата/период",
+    "format": "Формат",
+    "target_audience": "Целевая аудитория",
+    "required_competencies": "Требуемые компетенции",
+    "cost_or_terms": "Стоимость/условия",
+    "application_deadline": "Дедлайн подачи заявки",
+    "development_track": "Трек индплана",
+    "source_url": "Ссылка на источник",
+    "contact": "Контактное лицо",
+    "status": "Статус"
+  },
+  "as_of": "2027-03-01T10:00:00Z",
+  "sources": {
+    "lab-27": {
+      "provider": "training-board", "record_id": "lab-series", "edition_ref": "LAB-27", "revision": "1",
+      "url": "https://training.example.invalid/lab",
+      "excerpt": "Набор LAB-27. Участие бесплатно для преподавателей. Заявки до 15 марта 2027, 18:00 UTC+03."
+    },
+    "lab-28": {
+      "provider": "training-board", "record_id": "lab-series", "edition_ref": "LAB-28", "revision": "1",
+      "url": "https://training.example.invalid/lab",
+      "excerpt": "Набор LAB-28. Заявки до 15 марта 2028, 18:00. В объявлении нет часового пояса, условий оплаты и контакта."
+    },
+    "grant-notice": {
+      "provider": "training-board", "record_id": "workshop-grant", "edition_ref": "GR-27", "revision": "1",
+      "url": "https://training.example.invalid/grant",
+      "excerpt": "Выпуск GR-27. Для всех заявителей участие бесплатно."
+    },
+    "grant-rules": {
+      "provider": "grant-office", "record_id": "grant-terms", "edition_ref": "GR-27", "revision": "1",
+      "url": "https://grants.example.invalid/terms/gr-27",
+      "excerpt": "Выпуск GR-27. Для всех заявителей обязателен взнос 1500 RUB."
+    },
+    "placement": {
+      "provider": "training-board", "record_id": "placement", "edition_ref": "ST-27", "revision": "1",
+      "url": "https://training.example.invalid/placement",
+      "excerpt": "Набор ST-27. Организатор принимает заявки в течение всей стажировки и пометил дедлайн как неприменимый."
+    }
+  },
+  "cards": {
+    "full": {
+      "source": "lab-27",
+      "fields": {
+        "title": "Учебная лаборатория обратной связи",
+        "opportunity_type": "Курс повышения квалификации",
+        "organizing_unit": "Учебный отдел «Пробный модуль»",
+        "period": {"start": "2027-04-12", "end": "2027-04-16"},
+        "format": "Онлайн",
+        "target_audience": "Преподаватели иностранных языков",
+        "required_competencies": ["Разработка устной обратной связи"],
+        "cost_or_terms": "Бесплатно для преподавателей",
+        "application_deadline": "2027-03-15T18:00:00+03:00",
+        "development_track": "Оценивание",
+        "source_url": "https://training.example.invalid/lab",
+        "contact": {"name": "Координатор Альфа", "email": "alpha@training.example.invalid"},
+        "status": "Набор открыт"
+      },
+      "expected": {
+        "known_fields": 13, "route": "pass_completeness", "blockers": {},
+        "deadlines": {"application_deadline": {"status": "open", "utc": "2027-03-15T15:00:00Z"}}
+      }
+    },
+    "incomplete": {
+      "source": "lab-28",
+      "fields": {
+        "title": "Учебная лаборатория обратной связи",
+        "opportunity_type": "Курс повышения квалификации",
+        "organizing_unit": "Учебный отдел «Пробный модуль»",
+        "period": {"start": "2028-04-10", "end": "2028-04-14"},
+        "format": "Онлайн",
+        "target_audience": "Преподаватели иностранных языков",
+        "required_competencies": ["Разработка устной обратной связи"],
+        "cost_or_terms": {"state": "unknown", "note": "В объявлении нет цены и условий участия."},
+        "application_deadline": {"state": "unknown", "note": "Время указано без часового пояса.", "raw": "15 марта 2028, 18:00"},
+        "development_track": "Оценивание",
+        "source_url": "https://training.example.invalid/lab",
+        "contact": {"state": "unknown", "note": "В объявлении не указан представитель организатора."},
+        "status": "Объявлен следующий набор"
+      },
+      "expected": {
+        "known_fields": 10, "route": "moderation",
+        "blockers": {"cost_or_terms": "unknown", "application_deadline": "unknown", "contact": "unknown"},
+        "deadlines": {"application_deadline": {"status": "unknown", "utc": null}}
+      }
+    },
+    "conflict": {
+      "source": "grant-notice",
+      "fields": {
+        "title": "Учебный грант на методическую мастерскую",
+        "opportunity_type": "Грант",
+        "organizing_unit": "Учебный отдел «Пробный модуль»",
+        "period": {"start": "2027-05-03", "end": "2027-06-25"},
+        "format": "Очный",
+        "target_audience": "Авторы методических мастерских",
+        "required_competencies": ["Проектирование практических заданий"],
+        "cost_or_terms": {
+          "state": "conflict",
+          "candidates": [
+            {"source": "grant-notice", "value": "Бесплатно для всех заявителей"},
+            {"source": "grant-rules", "value": "Обязательный взнос 1500 RUB для всех заявителей"}
+          ]
+        },
+        "application_deadline": "2027-04-02T17:00:00+05:00",
+        "development_track": "Проектирование курсов",
+        "source_url": "https://training.example.invalid/grant",
+        "contact": {"name": "Координатор Бета", "email": "beta@training.example.invalid"},
+        "status": "Набор открыт"
+      },
+      "expected": {
+        "known_fields": 12, "route": "moderation", "blockers": {"cost_or_terms": "conflict"},
+        "deadlines": {"application_deadline": {"status": "open", "utc": "2027-04-02T12:00:00Z"}}
+      }
+    },
+    "not_applicable": {
+      "source": "placement",
+      "fields": {
+        "title": "Учебная стажировка в языковой мастерской",
+        "opportunity_type": "Стажировка",
+        "organizing_unit": "Учебная мастерская «Второй кабинет»",
+        "period": {"start": "2027-03-15", "end": "2027-05-28"},
+        "format": "Смешанный",
+        "target_audience": "Преподаватели-практики",
+        "required_competencies": ["Наблюдение за занятием"],
+        "cost_or_terms": "Бесплатно по приглашению мастерской",
+        "application_deadline": {"state": "not_applicable", "note": "Источник указывает непрерывный набор."},
+        "development_track": "Наблюдение и обратная связь",
+        "source_url": "https://training.example.invalid/placement",
+        "contact": {"name": "Координатор Гамма", "email": "gamma@training.example.invalid"},
+        "status": "Набор открыт"
+      },
+      "expected": {
+        "known_fields": 12, "route": "moderation", "blockers": {"application_deadline": "pending_24"},
+        "deadlines": {"application_deadline": {"status": "not_applicable", "utc": null}}
+      }
+    }
+  },
+  "imports": [
+    {"card": "full", "expected_key": "int-lab-27", "expected_count": 1},
+    {"card": "full", "expected_key": "int-lab-27", "expected_count": 1},
+    {"card": "incomplete", "expected_key": "int-lab-28", "expected_count": 2},
+    {"card": "conflict", "expected_key": "int-grant-27", "expected_count": 3},
+    {"card": "not_applicable", "expected_key": "int-placement-27", "expected_count": 4}
+  ]
+}

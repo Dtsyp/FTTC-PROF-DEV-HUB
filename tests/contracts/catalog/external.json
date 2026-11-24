@@ -1,0 +1,180 @@
+{
+  "required_fields": {
+    "title": "Название",
+    "organizer": "Организатор",
+    "event_date": "Дата проведения",
+    "venue": "Место проведения",
+    "format": "Формат",
+    "target_audience": "Целевая аудитория",
+    "participation_fee": "Стоимость участия",
+    "submission_deadline": "Дедлайн подачи заявки/тезисов",
+    "registration_deadline": "Дедлайн регистрации",
+    "publication_indexing": "Индексация публикаций",
+    "language": "Язык мероприятия",
+    "source_url": "Ссылка на источник",
+    "topic": "Тематика",
+    "scale": "Масштаб",
+    "participant_count": "Кол-во участников",
+    "first_held_year": "С какого года проводится"
+  },
+  "as_of": "2027-03-01T10:00:00Z",
+  "sources": {
+    "forum-27": {
+      "provider": "language-forum", "record_id": "forum-series", "edition_ref": "LF-27", "revision": "1",
+      "url": "https://forum.example.invalid/annual",
+      "excerpt": "LF-27. Участие бесплатно. Организатор подтвердил 0 зарегистрированных участников на момент объявления. Труды выпуска не индексируются. 1 марта: приём тезисов до 12:00 UTC+03, регистрация до 12:00 UTC+01."
+    },
+    "forum-28": {
+      "provider": "language-forum", "record_id": "forum-series", "edition_ref": "LF-28", "revision": "1",
+      "url": "https://forum.example.invalid/annual",
+      "excerpt": "LF-28. Окончание регистрации: 1 марта 2028 в 12:00 UTC+01. В объявлении нет срока подачи тезисов, цены и числа участников. Труды выпуска не индексируются."
+    },
+    "seminar-sheet-a": {
+      "provider": "seminar-board", "record_id": "feedback", "edition_ref": "FB-27", "revision": "sheet-A",
+      "url": "https://seminar.example.invalid/feedback",
+      "excerpt": "FB-27, лист А. Регистрация заканчивается 10 мая 2027 в 18:00 UTC+02. Редакция не датирована."
+    },
+    "seminar-sheet-b": {
+      "provider": "seminar-board", "record_id": "feedback", "edition_ref": "FB-27", "revision": "sheet-B",
+      "url": "https://seminar.example.invalid/feedback",
+      "excerpt": "FB-27, лист Б. Регистрация заканчивается 10 мая 2027 в 18:00 UTC+05. Редакция не датирована."
+    },
+    "webinar": {
+      "provider": "webinar-board", "record_id": "lesson", "edition_ref": "WS-27", "revision": "1",
+      "url": "https://webinar.example.invalid/lesson",
+      "excerpt": "WS-27. Для вебинара выпуск трудов не планируется. Организатор пометил индексацию публикаций как неприменимую."
+    }
+  },
+  "cards": {
+    "full": {
+      "source": "forum-27",
+      "event_type": "Форум",
+      "fields": {
+        "title": "Учебный форум языковых практик",
+        "organizer": "Учебное объединение «Языковая проба»",
+        "event_date": "2027-03-20",
+        "venue": "Учебный центр «Бумажный город», зал А",
+        "format": "Очный",
+        "target_audience": "Преподаватели иностранных языков",
+        "participation_fee": {"amount": 0, "currency": "RUB"},
+        "submission_deadline": "2027-03-01T12:00:00+03:00",
+        "registration_deadline": "2027-03-01T12:00:00+01:00",
+        "publication_indexing": "Без индексации",
+        "language": "Русский",
+        "source_url": "https://forum.example.invalid/annual",
+        "topic": "Обратная связь на занятии",
+        "scale": "Межрегиональный",
+        "participant_count": 0,
+        "first_held_year": 2022
+      },
+      "expected": {
+        "known_fields": 16, "route": "pass_completeness", "blockers": {},
+        "deadlines": {
+          "submission_deadline": {"status": "elapsed", "utc": "2027-03-01T09:00:00Z"},
+          "registration_deadline": {"status": "open", "utc": "2027-03-01T11:00:00Z"}
+        }
+      }
+    },
+    "incomplete": {
+      "source": "forum-28",
+      "event_type": "Форум",
+      "fields": {
+        "title": "Учебный форум языковых практик",
+        "organizer": "Учебное объединение «Языковая проба»",
+        "event_date": "2028-03-18",
+        "venue": "Учебный центр «Бумажный город», зал Б",
+        "format": "Очный",
+        "target_audience": "Преподаватели иностранных языков",
+        "participation_fee": {"state": "unknown", "note": "В анонсе нового выпуска нет цены."},
+        "submission_deadline": {"state": "unknown", "note": "Опубликован только срок регистрации."},
+        "registration_deadline": "2028-03-01T12:00:00+01:00",
+        "publication_indexing": "Без индексации",
+        "language": "Русский",
+        "source_url": "https://forum.example.invalid/annual",
+        "topic": "Обратная связь на занятии",
+        "scale": "Межрегиональный",
+        "participant_count": {"state": "unknown", "note": "Организатор не сообщил число участников нового выпуска."},
+        "first_held_year": 2022
+      },
+      "expected": {
+        "known_fields": 13, "route": "moderation",
+        "blockers": {"participation_fee": "unknown", "submission_deadline": "unknown", "participant_count": "unknown"},
+        "deadlines": {
+          "submission_deadline": {"status": "unknown", "utc": null},
+          "registration_deadline": {"status": "open", "utc": "2028-03-01T11:00:00Z"}
+        }
+      }
+    },
+    "conflict": {
+      "source": "seminar-sheet-a",
+      "event_type": "Семинар",
+      "fields": {
+        "title": "Учебный семинар о разборе урока",
+        "organizer": "Учебное объединение «Разбор занятия»",
+        "event_date": "2027-05-21",
+        "venue": "Дистанционная аудитория «Учебный зал 7»",
+        "format": "Онлайн",
+        "target_audience": "Методисты",
+        "participation_fee": {"amount": 800, "currency": "RUB"},
+        "submission_deadline": "2027-04-30T18:00:00+02:00",
+        "registration_deadline": {
+          "state": "conflict",
+          "candidates": [
+            {"source": "seminar-sheet-a", "value": "2027-05-10T18:00:00+02:00"},
+            {"source": "seminar-sheet-b", "value": "2027-05-10T18:00:00+05:00"}
+          ]
+        },
+        "publication_indexing": "Учебный указатель «Индекс примеров»",
+        "language": "Английский",
+        "source_url": "https://seminar.example.invalid/feedback",
+        "topic": "Разбор учебного занятия",
+        "scale": "Региональный",
+        "participant_count": 32,
+        "first_held_year": 2024
+      },
+      "expected": {
+        "known_fields": 15, "route": "moderation", "blockers": {"registration_deadline": "conflict"},
+        "deadlines": {
+          "submission_deadline": {"status": "open", "utc": "2027-04-30T16:00:00Z"},
+          "registration_deadline": {"status": "conflict", "utc": null}
+        }
+      }
+    },
+    "not_applicable": {
+      "source": "webinar",
+      "event_type": "Вебинар",
+      "fields": {
+        "title": "Учебный вебинар о диалоге на уроке",
+        "organizer": "Учебная студия «Диалог-пример»",
+        "event_date": "2027-04-20",
+        "venue": "Дистанционная аудитория «Пробная студия»",
+        "format": "Онлайн",
+        "target_audience": "Ведущие разговорных клубов",
+        "participation_fee": {"amount": 300, "currency": "RUB"},
+        "submission_deadline": "2027-04-06T17:00:00+03:00",
+        "registration_deadline": "2027-04-19T17:00:00+03:00",
+        "publication_indexing": {"state": "not_applicable", "note": "Организатор указал, что сборника трудов не будет."},
+        "language": "Русский",
+        "source_url": "https://webinar.example.invalid/lesson",
+        "topic": "Работа в малых группах",
+        "scale": "Городской",
+        "participant_count": 14,
+        "first_held_year": 2025
+      },
+      "expected": {
+        "known_fields": 15, "route": "moderation", "blockers": {"publication_indexing": "pending_24"},
+        "deadlines": {
+          "submission_deadline": {"status": "open", "utc": "2027-04-06T14:00:00Z"},
+          "registration_deadline": {"status": "open", "utc": "2027-04-19T14:00:00Z"}
+        }
+      }
+    }
+  },
+  "imports": [
+    {"card": "full", "expected_key": "ext-forum-27", "expected_count": 1},
+    {"card": "full", "expected_key": "ext-forum-27", "expected_count": 1},
+    {"card": "incomplete", "expected_key": "ext-forum-28", "expected_count": 2},
+    {"card": "conflict", "expected_key": "ext-seminar-27", "expected_count": 3},
+    {"card": "not_applicable", "expected_key": "ext-webinar-27", "expected_count": 4}
+  ]
+}
