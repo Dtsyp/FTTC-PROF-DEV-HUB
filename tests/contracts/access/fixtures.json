@@ -1,0 +1,98 @@
+{
+  "profiles": [
+    {"id": "teacher-a", "roles": ["teacher"]},
+    {"id": "teacher-b", "roles": ["teacher"]},
+    {"id": "supervisor-a", "roles": ["supervisor", "teacher"]},
+    {"id": "supervisor-b", "roles": ["supervisor"]},
+    {"id": "admin", "roles": ["admin"]},
+    {"id": "peer", "roles": ["teacher"]},
+    {"id": "disabled-teacher", "roles": ["teacher"]}
+  ],
+  "assignments": [
+    {"id": "scope-a-a", "supervisor": "supervisor-a", "employee": "teacher-a"},
+    {"id": "scope-b-b", "supervisor": "supervisor-b", "employee": "teacher-b"},
+    {"id": "scope-b-a", "supervisor": "supervisor-b", "employee": "teacher-a"}
+  ],
+  "meetings": [
+    {"id": "meeting-a", "employee": "teacher-a"}
+  ],
+  "meeting_grants": [
+    {"id": "chair-a", "supervisor": "supervisor-a", "meeting": "meeting-a", "operations": ["read-brief", "print-brief", "edit-recommendation"]},
+    {"id": "chair-a-no-print", "supervisor": "supervisor-a", "meeting": "meeting-a", "operations": ["read-brief", "edit-recommendation"]}
+  ],
+  "objects": [
+    {"id": "profile-a", "kind": "profile", "owner": "teacher-a", "marker": "SYN-PROFILE-A"},
+    {"id": "profile-b", "kind": "profile", "owner": "teacher-b", "marker": "SYN-PROFILE-B"},
+    {"id": "profile-supervisor-a", "kind": "profile", "owner": "supervisor-a", "marker": "SYN-PROFILE-SUP-A"},
+    {"id": "profile-inactive", "kind": "profile", "owner": "disabled-teacher", "marker": "SYN-PROFILE-INACTIVE"},
+    {"id": "plan-a", "kind": "plan", "owner": "teacher-a", "marker": "SYN-GOAL-A"},
+    {"id": "plan-inactive", "kind": "plan", "owner": "disabled-teacher", "marker": "SYN-GOAL-INACTIVE"},
+    {"id": "achievement-a", "kind": "achievement", "owner": "teacher-a", "audience": ["peer"], "track": "synthetic-track", "marker": "SYN-ACHIEVEMENT-A"},
+    {"id": "brief-a", "kind": "brief", "meeting": "meeting-a", "marker": "SYN-BRIEF-STAFF-ONLY"},
+    {"id": "private-note-a", "kind": "private-note", "meeting": "meeting-a", "marker": "SYN-NOTE-PRIVATE"},
+    {"id": "result-a", "kind": "published-result", "meeting": "meeting-a", "published_to": ["teacher-a"], "marker": "SYN-RESULT-PUBLISHED"},
+    {"id": "draft-a", "kind": "recommendation-draft", "meeting": "meeting-a", "marker": "SYN-DRAFT-GOAL"}
+  ],
+  "states": [
+    {
+      "id": "base",
+      "assignments": ["scope-a-a", "scope-b-b"],
+      "meeting_grants": ["chair-a"],
+      "inactive": ["disabled-teacher"],
+      "published": ["achievement-a"],
+      "indexed": ["achievement-a"]
+    },
+    {
+      "id": "transferred",
+      "assignments": ["scope-b-a", "scope-b-b"],
+      "meeting_grants": ["chair-a"],
+      "inactive": ["disabled-teacher"],
+      "published": ["achievement-a"],
+      "indexed": ["achievement-a"]
+    },
+    {
+      "id": "revoked",
+      "assignments": ["scope-b-b"],
+      "meeting_grants": ["chair-a"],
+      "inactive": ["disabled-teacher"],
+      "published": ["achievement-a"],
+      "indexed": ["achievement-a"]
+    },
+    {
+      "id": "chair-revoked",
+      "assignments": ["scope-a-a", "scope-b-b"],
+      "meeting_grants": [],
+      "inactive": ["disabled-teacher"],
+      "published": ["achievement-a"],
+      "indexed": ["achievement-a"]
+    },
+    {
+      "id": "brief-read-only",
+      "assignments": ["scope-a-a", "scope-b-b"],
+      "meeting_grants": ["chair-a-no-print"],
+      "inactive": ["disabled-teacher"],
+      "published": ["achievement-a"],
+      "indexed": ["achievement-a"]
+    },
+    {
+      "id": "before-deactivation",
+      "assignments": ["scope-a-a", "scope-b-b"],
+      "meeting_grants": ["chair-a"],
+      "inactive": [],
+      "published": ["achievement-a"],
+      "indexed": ["achievement-a"]
+    },
+    {
+      "id": "index-stale",
+      "assignments": ["scope-a-a", "scope-b-b"],
+      "meeting_grants": ["chair-a"],
+      "inactive": ["disabled-teacher"],
+      "published": [],
+      "indexed": ["achievement-a"]
+    }
+  ],
+  "decisions": [
+    {"id": "D-MEET", "url": "https://github.com/Dtsyp/FTTC-PROF-DEV-HUB/issues/25"},
+    {"id": "D-ACCESS", "url": "https://github.com/Dtsyp/FTTC-PROF-DEV-HUB/issues/22"}
+  ]
+}

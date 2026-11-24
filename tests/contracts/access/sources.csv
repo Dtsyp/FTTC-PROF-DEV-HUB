@@ -1,0 +1,20 @@
+id,path,section,excerpt
+scope,docs/FTTC_PROF_DEV_HUB_Architecture_and_Roadmap.md,4.3. Единый профиль и доступ,в пределах своей области курирования и назначенных встреч
+own-plan,docs/FTTC_PROF_DEV_HUB_Architecture_and_Roadmap.md,"8. Доступ, защита и жизненный цикл",Управляет своим
+identities,docs/architecture/requirements-trace.md,Общая платформа,совмещение ролей и прямой запрос объекта
+foreign-plan,docs/architecture/requirements-trace.md,"Блок 1. Портфолио, ИПР и совместные проекты",Чужой сотрудник не может читать или менять план
+live,docs/adr/0002-authorization-and-recovery.md,Проверка доступа,в том числе через уже открытую сессию
+counts,docs/architecture/requirements-trace.md,Общая платформа,"По счётчику, детализации или разности разрешённых выборок нельзя извлечь закрытое сведение"
+audience,docs/FTTC_PROF_DEV_HUB_Architecture_and_Roadmap.md,"8. Доступ, защита и жизненный цикл",Только опубликованные ему
+deactivation,docs/FTTC_PROF_DEV_HUB_Architecture_and_Roadmap.md,9.5. Приёмка MVP,Деактивация блокирует новые запросы
+feed,docs/FTTC_PROF_DEV_HUB_Architecture_and_Roadmap.md,9.5. Приёмка MVP,после закрытия запись недоступна даже при остановленном обновлении индекса
+feed-link,docs/architecture/requirements-trace.md,"Блок 1. Портфолио, ИПР и совместные проекты",недоступна по прежней ссылке
+meeting-access,docs/FTTC_PROF_DEV_HUB_Architecture_and_Roadmap.md,9.5. Приёмка MVP,администратор не открывает данные встреч только своей ролью
+private,docs/FTTC_PROF_DEV_HUB_Architecture_and_Roadmap.md,"8. Доступ, защита и жизненный цикл",Администрирование не предоставляет доступ к содержимому
+private-content,docs/architecture/requirements-trace.md,Блок 2. Встречи 1-1,"Преподаватель, администратор и руководитель чужой встречи не читают приватный материал"
+print,docs/adr/0002-authorization-and-recovery.md,Проверка доступа,"Формирование, печать и получение требуют отдельной объектной проверки"
+brief,docs/FTTC_PROF_DEV_HUB_Architecture_and_Roadmap.md,9.5. Приёмка MVP,печатная версия содержит те же факты
+meeting-policy,docs/FTTC_PROF_DEV_HUB_Architecture_and_Roadmap.md,"8. Доступ, защита и жизненный цикл","Доступ сотрудника к аналитической записке, передача истории новому руководителю"
+until-decided,docs/architecture/requirements-trace.md,"Разночтения источника, пробелы и решения",закрытый доступ при неопределённости
+published-fields,docs/adr/0002-authorization-and-recovery.md,Проверка доступа,Сотрудник читает только свою опубликованную часть
+draft-edit,docs/FTTC_PROF_DEV_HUB_Architecture_and_Roadmap.md,7.1. Сценарий MVP,редактирует и утверждает рекомендации
